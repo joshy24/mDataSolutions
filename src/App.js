@@ -7,6 +7,11 @@ import { Header } from "./Components/Header";
 import Service from "./Components/Service";
 import About from "./Pages/About";
 import Home from "./Pages/Home";
+import OurValues from "./Components/about/OurValues";
+import WhyUs from "./Components/about/WhyUs";
+import BecomeInstructor from "./Components/about/BecomeInstructor";
+import Partners from "./Components/about/Partners";
+import Training from "./Components/about/Training";
 
 function App() {
   useEffect(() => {
@@ -20,7 +25,12 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           {/* about pages  */}
-          <Route exact path="/OurApproach" element={<OurApproach />} />
+          <Route exact path="/our-approach" element={<OurApproach />} />
+          <Route exact path="/our-values" element={<OurValues />} />
+          <Route exact path="/why-us" element={<WhyUs />} />
+          <Route exact path="/become-instructor" element={<BecomeInstructor />} />
+          <Route exact path="/partners" element={<Partners />} />
+          <Route exact path="/training-schedule" element={<Training />} />
 
           {/*end of about pages  */}
 

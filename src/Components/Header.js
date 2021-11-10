@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -9,7 +10,7 @@ export const Header = () => {
           <div className="header-navbar">
             <div className="header-logo">
               <a href="index-1.html">
-                <img src="assets/media/logo-3.svg" alt="logo" />
+                <img src="assets/media/logo-3.svg" alt="logo"/>
               </a>
             </div>
             <div className="header-main-nav">
@@ -39,30 +40,30 @@ export const Header = () => {
                   </div>
                 </div>
                 <ul className="mainmenu">
-                <li>
-                    <a href="contact.html">Home</a>
+                  <li>
+                    <Link to="/">Home</Link>
                   </li>
-                 
+
                   <li className="menu-item-has-children">
                     <a href="javascript:void(0);">About Us</a>
                     <ul className="axil-submenu">
                       <li>
-                        <a href="/">Our Approach</a>
+                        <Link to="/our-approach">Our Approach</Link>
                       </li>
                       <li>
-                        <a href="/">Our Values </a>
+                        <Link to="/our-values">Our Values </Link>
                       </li>
                       <li>
-                        <a href="/">Why Us</a>
+                        <Link to="/why-us">Why Us</Link>
                       </li>
                       <li>
-                        <a href="/">Become an Instructor</a>
+                        <Link to="/become-instructor">Become an Instructor</Link>
                       </li>
                       <li>
-                        <a href="/">Partners & Clients</a>
+                        <Link to="/partners">Partners & Clients</Link>
                       </li>
                       <li>
-                        <a href="/">Training Schedule</a>
+                        <Link to="/training-schedule">Training Schedule</Link>
                       </li>
                     </ul>
                   </li>
@@ -77,11 +78,14 @@ export const Header = () => {
                       </li>
                       <li>
                         <a href="/">Business Analysis</a>
-                      </li>  <li>
+                      </li>
+                      <li>
                         <a href="/">Risk Management</a>
-                      </li>  <li>
+                      </li>
+                      <li>
                         <a href="/">Big Data</a>
-                      </li>  <li>
+                      </li>
+                      <li>
                         <a href="/">Leadership </a>
                       </li>
                       <li>

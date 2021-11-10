@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -10,7 +10,11 @@ export const Header = () => {
           <div className="header-navbar">
             <div className="header-logo">
               <a href="index-1.html">
-                <img src="assets/media/logo-3.svg" alt="logo"/>
+                <img
+                  src="assets/media/mdata.png"
+                  alt="logo"
+                  style={{ height: 50, width: 130 }}
+                />
               </a>
             </div>
             <div className="header-main-nav">
@@ -21,13 +25,15 @@ export const Header = () => {
                       <a href="index-1.html">
                         <img
                           className="light-mode"
-                          src="assets/media/logo-2.svg"
+                          src="assets/media/mdata.png"
                           alt="Site Logo"
+                          style={{ height: 50, width: 130 }}
                         />
                         <img
                           className="dark-mode"
-                          src="assets/media/logo-3.svg"
+                          src="assets/media/mdata.png"
                           alt="Site Logo"
+                          style={{ height: 50, width: 130 }}
                         />
                       </a>
                     </div>
@@ -43,27 +49,32 @@ export const Header = () => {
                   <li>
                     <Link to="/">Home</Link>
                   </li>
-
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);">About Us</a>
+                    <a href="javascript:void(0);">Digital Transformation </a>
                     <ul className="axil-submenu">
                       <li>
-                        <Link to="/our-approach">Our Approach</Link>
+                        <a href="service.html">Document Management</a>
                       </li>
                       <li>
-                        <Link to="/our-values">Our Values </Link>
+                        <a href="service.html">Business Process Automation</a>
                       </li>
                       <li>
-                        <Link to="/why-us">Why Us</Link>
+                        <Link to="/software-technology">Software & Technology</Link>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li className="menu-item-has-children">
+                    <a href="javascript:void(0);">Security & Risk </a>
+                    <ul className="axil-submenu">
+                      <li>
+                        <a href="service.html">Service</a>
                       </li>
                       <li>
-                        <Link to="/become-instructor">Become an Instructor</Link>
+                        <a href="service-2.html">Service Two</a>
                       </li>
                       <li>
-                        <Link to="/partners">Partners & Clients</Link>
-                      </li>
-                      <li>
-                        <Link to="/training-schedule">Training Schedule</Link>
+                        <a href="service-design.html">Service Details</a>
                       </li>
                     </ul>
                   </li>
@@ -75,6 +86,12 @@ export const Header = () => {
                       </li>
                       <li>
                         <a href="/">Project Management Offerings</a>
+                      </li>
+
+                      <li>
+                        <Link to="/become-instructor">
+                          Become an Instructor
+                        </Link>
                       </li>
                       <li>
                         <a href="/">Business Analysis</a>
@@ -94,21 +111,27 @@ export const Header = () => {
                     </ul>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);">Security & Risk </a>
+                    <a href="javascript:void(0);">About Us</a>
                     <ul className="axil-submenu">
-                      <li>
-                        <a href="service.html">Service</a>
+                    <li>
+                        <Link to="/about-us">About Us</Link>
                       </li>
                       <li>
-                        <a href="service-2.html">Service Two</a>
+                        <Link to="/our-approach">Our Approach</Link>
                       </li>
                       <li>
-                        <a href="service-design.html">Service Details</a>
+                        <Link to="/our-values">Our Values </Link>
+                      </li>
+                      <li>
+                        <Link to="/why-us">Why Us</Link>
+                      </li>
+                      <li>
+                        <Link to="/partners">Partners & Clients</Link>
+                      </li>
+                      <li>
+                        <Link to="/training-schedule">Training Schedule</Link>
                       </li>
                     </ul>
-                  </li>
-                  <li>
-                    <a href="contact.html">Document Management</a>
                   </li>
                 </ul>
               </nav>

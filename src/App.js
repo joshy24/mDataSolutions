@@ -5,13 +5,14 @@ import OurApproach from "./Components/about/OurApproach";
 import Footer from "./Components/Footer";
 import { Header } from "./Components/Header";
 import Service from "./Components/Service";
-import About from "./Pages/About";
 import Home from "./Pages/Home";
 import OurValues from "./Components/about/OurValues";
 import WhyUs from "./Components/about/WhyUs";
 import BecomeInstructor from "./Components/about/BecomeInstructor";
 import Partners from "./Components/about/Partners";
 import Training from "./Components/about/Training";
+import AboutUs from "./Components/about/AboutUs";
+import Software from "./Components/digital/Software";
 
 function App() {
   useEffect(() => {
@@ -23,16 +24,19 @@ function App() {
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          {/* about pages  */}
+
+          {/* about us pages  */}
           <Route exact path="/our-approach" element={<OurApproach />} />
           <Route exact path="/our-values" element={<OurValues />} />
           <Route exact path="/why-us" element={<WhyUs />} />
+          <Route exact path="/about-us" element={<AboutUs />} />
           <Route exact path="/become-instructor" element={<BecomeInstructor />} />
           <Route exact path="/partners" element={<Partners />} />
           <Route exact path="/training-schedule" element={<Training />} />
-
           {/*end of about pages  */}
+
+          {/* digital transformation pages  */}
+          <Route exact path="/software-technology" element={<Software />} />
 
           <Route exact path="/services" element={<Service />} />
         </Routes>

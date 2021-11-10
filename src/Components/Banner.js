@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 // import sal from 'sal.js'
 
 export const Banner = () => {

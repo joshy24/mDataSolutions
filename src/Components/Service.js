@@ -15,8 +15,8 @@ export default function Service() {
                             <img src="assets/media/icon/icon-1.png" alt="icon" />
                         </div>
                         <div className="content">
-                            <h5 className="title"> <a href="service-design.html">Design</a></h5>
-                            <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
+                            <h5 className="title"> <a href="service-design.html">Digital Transformation</a></h5>
+                            <p>The world is changing and so are businesses all around the world, the market is becoming highly dynamic and this requires a </p>
                             <a href="service-design.html" className="more-btn">Find out more</a>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ export default function Service() {
                             <img src="assets/media/icon/icon-2.png" alt="icon" />
                         </div>
                         <div className="content">
-                            <h5 className="title"> <a href="service-development.html">Development</a></h5>
+                            <h5 className="title"> <a href="service-development.html">Project Management</a></h5>
                             <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
                             <a href="service-development.html" className="more-btn">Find out more</a>
                         </div>
@@ -39,7 +39,7 @@ export default function Service() {
                             <img src="assets/media/icon/icon-6.png" alt="icon" />
                         </div>
                         <div className="content">
-                            <h5 className="title"> <a href="service-content-strategy.html">Content strategy</a></h5>
+                            <h5 className="title"> <a href="service-content-strategy.html">Trainings</a></h5>
                             <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
                             <a href="service-content-strategy.html" className="more-btn">Find out more</a>
                         </div>

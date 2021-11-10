@@ -3,10 +3,10 @@ import React from 'react'
 const Services = () => {
     return (
         <>
-        <div class="breadcrum-area breadcrumb-banner">
-            <div class="container">
-                <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="300">
-                    <h1 class="title h2">Best solutions for your business</h1>
+       <div className="breadcrum-area breadcrumb-banner">
+            <div className="container">
+                <div className="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="300">
+                    <h1 className="title h2">Best solutions for your business</h1>
                     <p>Give your business a unique logo to stand out from crowd. We’ll create logo specifically for your company.</p>
                 </div>
                 <div class="banner-thumbnail" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="400">
@@ -27,97 +27,97 @@ const Services = () => {
         </div>
 
         {/* services  */}
-        <div class="service-scroll-navigation-area">
+        <div className="service-scroll-navigation-area">
             {/* <!-- Service Nav --> */}
-            <nav id="onepagenav" class="service-scroll-nav navbar onepagefixed">
-                <div class="container">
-                    <ul class="nav nav-pills">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section1">Design</a>
+            <nav id="onepagenav" className="service-scroll-nav navbar onepagefixed">
+                <div className="container">
+                    <ul className="nav nav-pills">
+                        <li className="nav-item">
+                            <a className="nav-link" href="#section1">Design</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section2">Development</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#section2">Development</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section3">Online Marketing</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#section3">Online Marketing</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section4">Business</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#section4">Business</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section5">Technology</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#section5">Technology</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#section6">Content Strategy</a>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#section6">Content Strategy</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-            <div class="section section-padding" id="section1">
-                <div class="container">
-                    <div class="section-heading heading-left">
-                        <span class="subtitle">Service</span>
-                        <h2 class="title">Design</h2>
+            <div className="section section-padding" id="section1">
+                <div className="container">
+                    <div className="section-heading heading-left">
+                        <span className="subtitle">Service</span>
+                        <h2 className="title">Design</h2>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-29.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-design.html">Logo &amp; Branding</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-design.html">Logo &amp; Branding</a></h5>
                                     <p>We design professional looking yet simple Logo. Our designs are search engine and user friendly.</p>
-                                    <a href="service-design.html" class="more-btn">Find out more</a>
+                                    <a href="service-design.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-27.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-design.html">Website Design</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-design.html">Website Design</a></h5>
                                     <p>We design professional looking yet simple websites. Our designs are search engine and user friendly.</p>
-                                    <a href="service-design.html" class="more-btn">Find out more</a>
+                                    <a href="service-design.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-28.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-design.html">Mobile app design</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-design.html">Mobile app design</a></h5>
                                     <p>We design professional looking yet Mobile Apps. Our designs are search engine
                                         and user friendly. </p>
-                                    <a href="service-design.html" class="more-btn">Find out more</a>
+                                    <a href="service-design.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-4.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-design.html">Graphic/print design</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-design.html">Graphic/print design</a></h5>
                                     <p>From simple Content Management System to complex eCommerce developer, we cover it all.</p>
-                                    <a href="service-design.html" class="more-btn">Find out more</a>
+                                    <a href="service-design.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-30.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-design.html">Video production</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-design.html">Video production</a></h5>
                                     <p>From simple Content Management System to complex eCommerce developer, we cover it all.</p>
-                                    <a href="service-design.html" class="more-btn">Find out more</a>
+                                    <a href="service-design.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
@@ -125,71 +125,71 @@ const Services = () => {
                 </div>
             </div>
             {/* <!-- Online Marketing Service --> */}
-            <div class="section section-padding" id="section3">
-                <div class="container">
-                    <div class="section-heading heading-left">
-                        <span class="subtitle">Service</span>
-                        <h2 class="title">Online Marketing</h2>
+            <div className="section section-padding" id="section3">
+                <div className="container">
+                    <div className="section-heading heading-left">
+                        <span className="subtitle">Service</span>
+                        <h2 className="title">Online Marketing</h2>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-34.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-marketing.html">SEO</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-marketing.html">SEO</a></h5>
                                     <p>We design professional looking yet simple Logo. Our designs are search engine and user friendly.</p>
-                                    <a href="service-marketing.html" class="more-btn">Find out more</a>
+                                    <a href="service-marketing.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-35.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-marketing.html">Pay-per click</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-marketing.html">Pay-per click</a></h5>
                                     <p>We design professional looking yet simple websites. Our designs are search engine and user friendly.</p>
-                                    <a href="service-marketing.html" class="more-btn">Find out more</a>
+                                    <a href="service-marketing.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-36.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-marketing.html">Email marketing</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-marketing.html">Email marketing</a></h5>
                                     <p>We design professional looking yet Mobile Apps. Our designs are search engine
                                         and user friendly. </p>
-                                    <a href="service-marketing.html" class="more-btn">Find out more</a>
+                                    <a href="service-marketing.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-37.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-marketing.html">Display marketing</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-marketing.html">Display marketing</a></h5>
                                     <p>From simple Content Management System to complex eCommerce developer, we cover it all.</p>
-                                    <a href="service-marketing.html" class="more-btn">Find out more</a>
+                                    <a href="service-marketing.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-38.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-marketing.html">Social Media marketing</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-marketing.html">Social Media marketing</a></h5>
                                     <p>From simple Content Management System to complex eCommerce developer, we cover it all.</p>
-                                    <a href="service-marketing.html" class="more-btn">Find out more</a>
+                                    <a href="service-marketing.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
@@ -197,60 +197,60 @@ const Services = () => {
                 </div>
             </div>
             {/* <!-- Business Service --> */}
-            <div class="section section-padding bg-color-light" id="section4">
-                <div class="container">
-                    <div class="section-heading heading-left">
-                        <span class="subtitle">Service</span>
-                        <h2 class="title">Business</h2>
+            <div className="section section-padding bg-color-light" id="section4">
+                <div className="container">
+                    <div className="section-heading heading-left">
+                        <span className="subtitle">Service</span>
+                        <h2 className="title">Business</h2>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-39.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-business.html">Digital strategy</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-business.html">Digital strategy</a></h5>
                                     <p>We design professional looking yet simple Logo. Our designs are search engine and user friendly.</p>
-                                    <a href="service-business.html" class="more-btn">Find out more</a>
+                                    <a href="service-business.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-40.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-business.html">Business consulting</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-business.html">Business consulting</a></h5>
                                     <p>We design professional looking yet simple websites. Our designs are search engine and user friendly.</p>
-                                    <a href="service-business.html" class="more-btn">Find out more</a>
+                                    <a href="service-business.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-41.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-business.html">Content writing</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-business.html">Content writing</a></h5>
                                     <p>We design professional looking yet Mobile Apps. Our designs are search engine
                                         and user friendly. </p>
-                                    <a href="service-business.html" class="more-btn">Find out more</a>
+                                    <a href="service-business.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-42.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-business.html">Reporting</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-business.html">Reporting</a></h5>
                                     <p>We design professional looking yet Mobile Apps. Our designs are search engine
                                         and user friendly. </p>
-                                    <a href="service-business.html" class="more-btn">Find out more</a>
+                                    <a href="service-business.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
@@ -258,34 +258,34 @@ const Services = () => {
                 </div>
             </div>
             {/* <!-- Technology Service --> */}
-            <div class="section section-padding" id="section5">
-                <div class="container">
-                    <div class="section-heading heading-left">
-                        <span class="subtitle">Service</span>
-                        <h2 class="title">Technology</h2>
+            <div className="section section-padding" id="section5">
+                <div className="container">
+                    <div className="section-heading heading-left">
+                        <span className="subtitle">Service</span>
+                        <h2 className="title">Technology</h2>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-43.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-technology.html">Hosting</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-technology.html">Hosting</a></h5>
                                     <p>We design professional looking yet simple Logo. Our designs are search engine and user friendly.</p>
-                                    <a href="service-technology.html" class="more-btn">Find out more</a>
+                                    <a href="service-technology.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-44.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-technology.html">Big data analysis</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-technology.html">Big data analysis</a></h5>
                                     <p>We design professional looking yet simple websites. Our designs are search engine and user friendly.</p>
-                                    <a href="service-technology.html" class="more-btn">Find out more</a>
+                                    <a href="service-technology.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
@@ -293,46 +293,46 @@ const Services = () => {
                 </div>
             </div>
             {/* <!-- Content strategy Service --> */}
-            <div class="section section-padding bg-color-light" id="section6">
-                <div class="container">
-                    <div class="section-heading heading-left">
-                        <span class="subtitle">Service</span>
-                        <h2 class="title">Content strategy</h2>
+            <div className="section section-padding bg-color-light" id="section6">
+                <div className="container">
+                    <div className="section-heading heading-left">
+                        <span className="subtitle">Service</span>
+                        <h2 className="title">Content strategy</h2>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-45.png" alt="icon"/>
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-content-strategy.html">Web Audit Practices</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-content-strategy.html">Web Audit Practices</a></h5>
                                     <p>industry-icon-1 Web Audit Practices A reputable marketing strategy company runs a complete digital,</p>
-                                    <a href="service-content-strategy.html" class="more-btn">Find out more</a>
+                                    <a href="service-content-strategy.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-46.png" alt="icon" />
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-content-strategy.html">Marketing Flexibility</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-content-strategy.html">Marketing Flexibility</a></h5>
                                     <p>Do you cater to other businesses, investors, decision-makers or consumers? A trustworthy digital</p>
-                                    <a href="service-content-strategy.html" class="more-btn">Find out more</a>
+                                    <a href="service-content-strategy.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                            <div class="services-grid service-style-2">
-                                <div class="thumbnail">
+                        <div className="col-lg-4 col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                            <div className="services-grid service-style-2">
+                                <div className="thumbnail">
                                     <img src="assets/media/icon/icon-47.png" alt="icon" />
                                 </div>
-                                <div class="content">
-                                    <h5 class="title"> <a href="service-content-strategy.html">Advertising Strategy</a></h5>
+                                <div className="content">
+                                    <h5 className="title"> <a href="service-content-strategy.html">Advertising Strategy</a></h5>
                                     <p>Promoting your products and services online requires cutting-edge organic and paid search strategies to rise</p>
-                                    <a href="service-content-strategy.html" class="more-btn">Find out more</a>
+                                    <a href="service-content-strategy.html" className="more-btn">Find out more</a>
                                 </div>
                             </div>
                         </div>

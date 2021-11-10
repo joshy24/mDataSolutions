@@ -39,28 +39,58 @@ export const Header = () => {
                   </div>
                 </div>
                 <ul className="mainmenu">
+                <li>
+                    <a href="contact.html">Home</a>
+                  </li>
+                 
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);">Digital Agency</a>
+                    <a href="javascript:void(0);">About Us</a>
                     <ul className="axil-submenu">
                       <li>
-                        <a href="index-1.html">Digital Agency</a>
+                        <a href="/">Our Approach</a>
                       </li>
                       <li>
-                        <a href="index-2.html">Creative Agency</a>
+                        <a href="/">Our Values </a>
                       </li>
                       <li>
-                        <a href="index-3.html">Personal Portfolio</a>
+                        <a href="/">Why Us</a>
                       </li>
                       <li>
-                        <a href="index-4.html">Home Startup</a>
+                        <a href="/">Become an Instructor</a>
                       </li>
                       <li>
-                        <a href="index-5.html">Corporate Agency</a>
+                        <a href="/">Partners & Clients</a>
+                      </li>
+                      <li>
+                        <a href="/">Training Schedule</a>
                       </li>
                     </ul>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);">Services</a>
+                    <a href="javascript:void(0);">Training</a>
+                    <ul className="axil-submenu">
+                      <li>
+                        <a href="/">Certification Offerings</a>
+                      </li>
+                      <li>
+                        <a href="/">Project Management Offerings</a>
+                      </li>
+                      <li>
+                        <a href="/">Business Analysis</a>
+                      </li>  <li>
+                        <a href="/">Risk Management</a>
+                      </li>  <li>
+                        <a href="/">Big Data</a>
+                      </li>  <li>
+                        <a href="/">Leadership </a>
+                      </li>
+                      <li>
+                        <a href="/">Cybersecurity </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="menu-item-has-children">
+                    <a href="javascript:void(0);">Security & Risk </a>
                     <ul className="axil-submenu">
                       <li>
                         <a href="service.html">Service</a>
@@ -73,95 +103,8 @@ export const Header = () => {
                       </li>
                     </ul>
                   </li>
-                  <li className="menu-item-has-children">
-                    <a href="javascript:void(0);">Portfolio</a>
-                    <ul className="axil-submenu">
-                      <li>
-                        <a href="portfolio.html">Two Column</a>
-                      </li>
-                      <li>
-                        <a href="portfolio-2.html">Three Column</a>
-                      </li>
-                      <li>
-                        <a href="portfolio-3.html">Four Column</a>
-                      </li>
-                      <li>
-                        <a href="portfolio-4.html">Three Column Width</a>
-                      </li>
-                      <li>
-                        <a href="portfolio-5.html">Four Column Width</a>
-                      </li>
-                      <li>
-                        <a href="single-portfolio.html">Portfolio Details</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="menu-item-has-children">
-                    <a href="javascript:void(0);">Pages</a>
-                    <ul className="axil-submenu">
-                      <li>
-                        <a href="about-us.html">About Us</a>
-                      </li>
-                      <li>
-                        <a href="our-office.html">Our Office</a>
-                      </li>
-                      <li>
-                        <a href="case-study.html">Case Study</a>
-                      </li>
-                      <li>
-                        <a href="single-case-study.html">Case Study Details</a>
-                      </li>
-                      <li>
-                        <a href="team.html">Team</a>
-                      </li>
-                      <li>
-                        <a href="single-team.html">Team Details</a>
-                      </li>
-                      <li>
-                        <a href="our-clients.html">Our Clients</a>
-                      </li>
-                      <li>
-                        <a href="testimonial.html">Testimonial</a>
-                      </li>
-                      <li>
-                        <a href="pricing-table.html">Pricing Table</a>
-                      </li>
-                      <li>
-                        <a href="typography.html">Typography</a>
-                      </li>
-                      <li>
-                        <a href="404.html">404 Page</a>
-                      </li>
-                      <li>
-                        <a href="coming-soon.html">Coming Soon</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="menu-item-has-children">
-                    <a href="javascript:void(0);">Blog</a>
-                    <ul className="axil-submenu">
-                      <li>
-                        <a href="blog.html">Blog</a>
-                      </li>
-                      <li>
-                        <a href="single-blog.html">Standard Post</a>
-                      </li>
-                      <li>
-                        <a href="single-blog-gallery.html">Gallery Post</a>
-                      </li>
-                      <li>
-                        <a href="single-blog-video.html">Video Post</a>
-                      </li>
-                      <li>
-                        <a href="single-blog-audio.html">Audio Post</a>
-                      </li>
-                      <li>
-                        <a href="single-blog-quote.html">Quote Post</a>
-                      </li>
-                    </ul>
-                  </li>
                   <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html">Document Management</a>
                   </li>
                 </ul>
               </nav>

@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import sal from "sal.js";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import OurApproach from "./Components/about/OurApproach";
 import Footer from "./Components/Footer";
@@ -8,6 +9,9 @@ import About from "./Pages/About";
 import Home from "./Pages/Home";
 
 function App() {
+  useEffect(() => {
+    sal();
+  }, []);
   return (
     <div id="main-wrapper" class="main-wrapper">
       <Router>

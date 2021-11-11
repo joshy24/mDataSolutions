@@ -1,5 +1,7 @@
 import React, {useEffect} from "react";
 import sal from "sal.js";
+import about2 from '../../images/about2.png'
+
 
 const OurValues = () => {
   useEffect(() => {
@@ -29,7 +31,7 @@ const OurValues = () => {
               >
                 <img
                   class="paralax-image"
-                  src="assets/media/project/project-2.png"
+                  src={about2}
                   alt="Illustration"
                 />
               </div>

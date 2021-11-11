@@ -13,6 +13,10 @@ import Partners from "./Components/about/Partners";
 import Training from "./Components/about/Training";
 import AboutUs from "./Components/about/AboutUs";
 import Software from "./Components/digital/Software";
+import DocumentManagement from "./Components/digital/DocumentManagement";
+import DigitalTransformation from "./Components/digital/DigitalTransformation";
+import BusinessAutomation from "./Components/digital/BusinessAutomation";
+import Contact from "./Pages/Contact";
 
 function App() {
   useEffect(() => {
@@ -36,9 +40,14 @@ function App() {
           {/*end of about pages  */}
 
           {/* digital transformation pages  */}
+          <Route exact path="/digital-transformation" element={<DigitalTransformation />} />
           <Route exact path="/software-technology" element={<Software />} />
+          <Route exact path="/document-management" element={<DocumentManagement />} />
+          <Route exact path="/buisness-process-automation" element={<BusinessAutomation />} />
 
+          
           <Route exact path="/services" element={<Service />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>

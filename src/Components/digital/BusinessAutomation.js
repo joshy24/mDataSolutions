@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import sal from "sal.js";
-import digital from '../../images/digital.png'
+import business from '../../images/business.png'
 
-const DigitalTransformation = () => {
+const BusinessAutomation = () => {
   useEffect(() => {
     sal();
   }, []);
@@ -18,7 +18,7 @@ const DigitalTransformation = () => {
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">Digital Transformation</h1>
+                <h1 class="title h2">Buisness Process Automation</h1>
               </div>
             </div>
             <div class="col-lg-6">
@@ -30,7 +30,7 @@ const DigitalTransformation = () => {
               >
                 <img
                   class="paralax-image"
-                  src={digital}
+                  src={business}
                   alt="Illustration"
                 />
               </div>
@@ -71,25 +71,14 @@ const DigitalTransformation = () => {
             <div class="col-lg-5">
               <div class="section-heading heading-left mb-0">
                 {/* <span class="subtitle">Software, Technology</span> */}
-                <h3 class="title">Digital Transformation</h3>
+                <h3 class="title">Buisness Process Automation</h3>
               </div>
               <p>
-                The world is changing and so are businesses all around the
-                world, the market is becoming highly dynamic and this requires a
-                proper adaptation to not only accommodate change but to perform,
-                prosper and succeed. Change is inevitable, opportunities and
-                threats in market today are identified by the exponential
-                advancement of technology, and organizations must be able to
-                constantly adapt at pace: seizing opportunities, neutralizing
-                threats as they arise, and apply innovative approach to present
-                their products and/or service in market.
-              </p>
-              <p>
-                Mdata Solutions is specialized and expert in transforming
-                business operations into digital transformation, it’s not about
-                providing software solution but it is about providing full
-                integrated platforms that contribute to the success of
-                organizations.
+                Repetitive and boring tasks can be distracting from primary
+                responsibilities and obligations, with MData’s BPA solutions,
+                businesses become more efficient and productive while work gets
+                more interesting for employees. The software simply automates
+                the tasks that are time-consuming.
               </p>
             </div>
           </div>
@@ -99,4 +88,4 @@ const DigitalTransformation = () => {
   );
 };
 
-export default DigitalTransformation;
+export default BusinessAutomation;

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const CallToAction = () => {
     return (
@@ -7,8 +8,8 @@ const CallToAction = () => {
             <div className="call-to-action">
                 <div className="section-heading heading-light">
                     <span className="subtitle">Let's Work Together</span>
-                    <h2 className="title">Need a successful project?</h2>
-                    <a href="contact.html" className="axil-btn btn-large btn-fill-white">Estimate Project</a>
+                    <h2 className="title">Need our professional help?</h2>
+                    <Link to="/contact" className="axil-btn btn-large btn-fill-white">Let's Talk </Link>
                 </div>
                 <div className="thumbnail">
                     <div className="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">

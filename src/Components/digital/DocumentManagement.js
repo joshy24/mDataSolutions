@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import sal from "sal.js";
 import digital from '../../images/digital.png'
 
-const DigitalTransformation = () => {
+const DocumentManagement = () => {
   useEffect(() => {
     sal();
   }, []);
@@ -18,7 +18,7 @@ const DigitalTransformation = () => {
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">Digital Transformation</h1>
+                <h1 class="title h2">Document Management</h1>
               </div>
             </div>
             <div class="col-lg-6">
@@ -71,25 +71,19 @@ const DigitalTransformation = () => {
             <div class="col-lg-5">
               <div class="section-heading heading-left mb-0">
                 {/* <span class="subtitle">Software, Technology</span> */}
-                <h3 class="title">Digital Transformation</h3>
+                <h3 class="title">Document Management</h3>
               </div>
               <p>
-                The world is changing and so are businesses all around the
-                world, the market is becoming highly dynamic and this requires a
-                proper adaptation to not only accommodate change but to perform,
-                prosper and succeed. Change is inevitable, opportunities and
-                threats in market today are identified by the exponential
-                advancement of technology, and organizations must be able to
-                constantly adapt at pace: seizing opportunities, neutralizing
-                threats as they arise, and apply innovative approach to present
-                their products and/or service in market.
-              </p>
-              <p>
-                Mdata Solutions is specialized and expert in transforming
-                business operations into digital transformation, it’s not about
-                providing software solution but it is about providing full
-                integrated platforms that contribute to the success of
-                organizations.
+                This solution provides back-file scanning which is also
+                inclusive of sorting and indexing of archival paper documents,
+                scanning of archival documents, document shredding etc. This
+                makes information and organizational records easily accessible,
+                helping the organization save a lot of effort, time and
+                resources. The deliverable digital files can be stored in CD,
+                DVD or a Hard Drive; it can also be stored on Cloud for a faster
+                and a more real-time access. Organisations like Law firms,
+                Hospitals, Newspapers, Magazines, NGOs, Schools, Government
+                Agencies, Churches, Insurance Companies etc.
               </p>
             </div>
           </div>
@@ -99,4 +93,4 @@ const DigitalTransformation = () => {
   );
 };
 
-export default DigitalTransformation;
+export default DocumentManagement;

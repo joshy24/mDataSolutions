@@ -22,7 +22,7 @@ export const Header = () => {
                 <div className="d-block d-lg-none">
                   <div className="mobile-nav-header">
                     <div className="mobile-nav-logo">
-                      <a href="index-1.html">
+                      <Link to="/">
                         <img
                           className="light-mode"
                           src="assets/media/mdata.png"
@@ -35,7 +35,7 @@ export const Header = () => {
                           alt="Site Logo"
                           style={{ height: 50, width: 130 }}
                         />
-                      </a>
+                      </Link>
                     </div>
                     <button
                       className="mobile-menu-close"
@@ -47,16 +47,19 @@ export const Header = () => {
                 </div>
                 <ul className="mainmenu">
                   <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/" style={{color: '#0d6efd'}}>Home</Link>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);">Digital Transformation </a>
+                    <a href="javascript:void(0);" style={{color: '#0d6efd'}}>Digital Transformation </a>
                     <ul className="axil-submenu">
-                      <li>
-                        <a href="service.html">Document Management</a>
+                    <li>
+                        <Link to="/digital-transformation">Digital Transformation</Link>
                       </li>
                       <li>
-                        <a href="service.html">Business Process Automation</a>
+                        <Link to="/document-management">Document Management</Link>
+                      </li>
+                      <li>
+                        <Link to="/buisness-process-automation">Business Process Automation</Link>
                       </li>
                       <li>
                         <Link to="/software-technology">Software & Technology</Link>
@@ -65,7 +68,7 @@ export const Header = () => {
                   </li>
 
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);">Security & Risk </a>
+                    <a href="javascript:void(0);" style={{color: '#0d6efd'}}>Security & Risk </a>
                     <ul className="axil-submenu">
                       <li>
                         <a href="service.html">Service</a>
@@ -79,7 +82,7 @@ export const Header = () => {
                     </ul>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);">Training</a>
+                    <a href="javascript:void(0);" style={{color: '#0d6efd'}}>Training</a>
                     <ul className="axil-submenu">
                       <li>
                         <a href="/">Certification Offerings</a>
@@ -111,7 +114,7 @@ export const Header = () => {
                     </ul>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);">About Us</a>
+                    <a href="javascript:void(0);" style={{color: '#0d6efd'}}>About Us</a>
                     <ul className="axil-submenu">
                     <li>
                         <Link to="/about-us">About Us</Link>
@@ -139,9 +142,9 @@ export const Header = () => {
             <div className="header-action">
               <ul className="list-unstyled">
                 <li className="header-btn">
-                  <a href="contact.html" className="axil-btn btn-fill-white">
+                  <Link to="/contact" className="axil-btn btn-fill-white">
                     Let's Talk
-                  </a>
+                  </Link>
                 </li>
                 <li className="mobile-menu-btn sidemenu-btn d-lg-none d-block">
                   <button

@@ -6,7 +6,7 @@ const Footer = () => {
         <>
         <footer className="footer-area">
             <div className="container">
-                <div className="footer-top">
+                {/* <div className="footer-top">
                     <div className="footer-social-link">
                         <ul className="list-unstyled">
                             <li><Link to="https://facebook.com/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100"><i className="fab fa-facebook-f"></i></Link></li>
@@ -19,8 +19,8 @@ const Footer = () => {
                             <li><Link to="https://www.behance.net/" data-sal="slide-up" data-sal-duration="500" data-sal-delay="800"><i className="fab fa-behance"></i></Link></li>
                         </ul>
                     </div>
-                </div>
-                <div className="footer-main">
+                </div> */}
+                {/* <div className="footer-main">
                     <div className="row">
                         <div className="col-xl-6 col-lg-5" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
                             <div className="footer-widget border-end">
@@ -81,7 +81,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="footer-bottom" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
                     <div className="row">
                         <div className="col-md-6">

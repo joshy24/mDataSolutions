@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+import digital from '../images/electronic-signature.png';
+import project from '../images/clipboard.png';
+import training from '../images/training.png';
+import { Link } from 'react-router-dom';
 
 export default function Service() {
     return (
@@ -12,36 +16,36 @@ export default function Service() {
                 <div className="col-lg-4 mt--200 mt_md--0" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
                     <div className="services-grid service-style-2">
                         <div className="thumbnail">
-                            <img src="assets/media/icon/icon-1.png" alt="icon" />
+                            <img src={digital} alt="icon" style={{height:100}} />
                         </div>
                         <div className="content">
                             <h5 className="title"> <a href="service-design.html">Digital Transformation</a></h5>
                             <p>The world is changing and so are businesses all around the world, the market is becoming highly dynamic and this requires a </p>
-                            <a href="service-design.html" className="more-btn">Find out more</a>
+                            <Link to="/digital-transformation" className="more-btn">Find out more</Link>
                         </div>
                     </div>
                 </div>
                 <div className="col-lg-4 mt--100 mt_md--0" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
                     <div className="services-grid service-style-2 active">
                         <div className="thumbnail">
-                            <img src="assets/media/icon/icon-2.png" alt="icon" />
+                            <img src={project} alt="icon" style={{height:100}}  />
                         </div>
                         <div className="content">
                             <h5 className="title"> <a href="service-development.html">Project Management</a></h5>
-                            <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
-                            <a href="service-development.html" className="more-btn">Find out more</a>
+                            <p>The world is changing and so are businesses all around the world, the market is becoming highly dynamic and this requires a </p>
+                            <Link to="/" className="more-btn">Find out more</Link>
                         </div>
                     </div>
                 </div>
                 <div className="col-lg-4" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                     <div className="services-grid service-style-2">
                         <div className="thumbnail">
-                            <img src="assets/media/icon/icon-6.png" alt="icon" />
+                            <img src={training} alt="icon" style={{height:100}} />
                         </div>
                         <div className="content">
                             <h5 className="title"> <a href="service-content-strategy.html">Trainings</a></h5>
-                            <p>Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.</p>
-                            <a href="service-content-strategy.html" className="more-btn">Find out more</a>
+                            <p>The world is changing and so are businesses all around the world, the market is becoming highly dynamic and this requires a </p>
+                            <Link to="/training" className="more-btn">Find out more</Link>
                         </div>
                     </div>
                 </div>

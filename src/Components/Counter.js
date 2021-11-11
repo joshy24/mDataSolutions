@@ -49,7 +49,7 @@ const Counter = () => {
                 <div className="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="400">
                     <div className="counterup-progress">
                         <div className="icon">
-                            <img src="assets/media/icon/apple.png" alt="Apple"/>
+                        <img src="assets/media/icon/icon-8.png" alt="Apple"/>
                         </div>
                         <div className="count-number h2">
                             <span className="number count">64</span>

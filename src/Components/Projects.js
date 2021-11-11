@@ -98,42 +98,6 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 project branding">
-                <div className="project-grid">
-                  <div className="thumbnail">
-                    <a href="single-portfolio.html">
-                      <img
-                        src="assets/media/project/project-5.png"
-                        alt="project"
-                      />
-                    </a>
-                  </div>
-                  <div className="content">
-                    <h4 className="title">
-                      <a href="single-portfolio.html">Plan Management</a>
-                    </h4>
-                    <span className="subtitle">Design, Development</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 project mobile">
-                <div className="project-grid">
-                  <div className="thumbnail">
-                    <a href="single-portfolio.html">
-                      <img
-                        src="assets/media/project/project-6.png"
-                        alt="project"
-                      />
-                    </a>
-                  </div>
-                  <div className="content">
-                    <h4 className="title">
-                      <a href="single-portfolio.html">Web Application</a>
-                    </h4>
-                    <span className="subtitle">Logo, Webapp, App</span>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

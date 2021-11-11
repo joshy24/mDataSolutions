@@ -79,7 +79,7 @@ export const Banner = () => {
                         className="axil-btn btn-borderd btn-fluid btn-primary"
                         name="submit-btn"
                       >
-                        Get Pricing Now
+                        Contact Us
                       </button>
                     </div>
                     <input

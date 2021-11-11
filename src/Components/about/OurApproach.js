@@ -1,5 +1,6 @@
 import React, {useEffect} from "react";
 import sal from "sal.js";
+import about2 from '../../images/about2.png'
 
 const OurApproach = () => {
   useEffect(() => {
@@ -29,7 +30,7 @@ const OurApproach = () => {
               >
                 <img
                   class="paralax-image"
-                  src="assets/media/project/project-2.png"
+                  src={about2}
                   alt="Illustration"
                 />
               </div>
@@ -69,8 +70,8 @@ const OurApproach = () => {
           <div class="row">
             <div class="col-lg-5">
               <div class="section-heading heading-left mb-0">
-                <span class="subtitle">Branding, Creative</span>
-                <h3 class="title">Creative agency</h3>
+                {/* <span class="subtitle">Branding, Creative</span> */}
+                <h3 class="title">Our Approach</h3>
               </div>
               <p>
                 Utilizing our high-impact 4-step approach as the framework for each client engagement ensures that we

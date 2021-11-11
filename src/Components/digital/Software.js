@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import sal from "sal.js";
+import software from '../../images/software.png'
 
 const Software = () => {
   useEffect(() => {
@@ -29,7 +30,7 @@ const Software = () => {
               >
                 <img
                   class="paralax-image"
-                  src="assets/media/project/project-2.png"
+                  src={software}
                   alt="Illustration"
                 />
               </div>

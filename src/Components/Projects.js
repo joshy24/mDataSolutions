@@ -10,13 +10,13 @@ const Projects = () => {
       <section className="section section-padding-2 bg-color-light">
         <div className="container">
           <div className="section-heading heading-left">
-            <span className="subtitle">Our Project</span>
+            <span className="subtitle">Industries</span>
             <h2 className="title">
-              Some of our <br /> finest work.
+              Some sectors <br /> we work with.
             </h2>
           </div>
-          <div className="axil-isotope-wrapper">
-            <div className="isotope-button isotope-project-btn">
+          <div className="axil-isotope-wrapper" style={{marginBottom:30}}>
+            {/* <div className="isotope-button isotope-project-btn">
               <button data-filter="*" className="is-checked">
                 <span className="filter-text">All Works</span>
               </button>
@@ -26,20 +26,21 @@ const Projects = () => {
               <button data-filter=".mobile">
                 <span className="filter-text">Mobile</span>
               </button>
-            </div>
+            </div> */}
             <div className="row row-35 isotope-list">
-              <div className="col-md-6 project branding">
+              <div className="col-md-6 project branding"  style={{height:150, width:300}}>
                 <div className="project-grid">
                   <div className="thumbnail">
                     <a href="single-portfolio.html">
                       <img
                         src={gov}
                         alt="project"
+                        style={{height:180, width:285}}
                       />
                     </a>
                   </div>
                   <div className="content">
-                    <h4 className="title">
+                  <h4 className="title" style={{fontSize: '1.5em'}}>
                       <a href="single-portfolio.html">Oil & Gas</a>
                     </h4>
                     {/* <span className="subtitle">
@@ -48,7 +49,7 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 project mobile">
+              <div className="col-md-6 project mobile"  style={{height:200, width:300}}>
                 <div className="project-grid">
                   <div className="thumbnail">
                     <a href="single-portfolio.html">
@@ -59,14 +60,14 @@ const Projects = () => {
                     </a>
                   </div>
                   <div className="content">
-                    <h4 className="title">
+                  <h4 className="title" style={{fontSize: '1.5em'}}>
                       <a href="single-portfolio.html">Banking</a>
                     </h4>
                     {/* <span className="subtitle">Logo, Website & Mobile App</span> */}
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 project branding">
+              <div className="col-md-6 project branding" style={{height:200, width:300}}>
                 <div className="project-grid">
                   <div className="thumbnail">
                     <a href="single-portfolio.html">
@@ -77,14 +78,15 @@ const Projects = () => {
                     </a>
                   </div>
                   <div className="content">
-                    <h4 className="title">
+                    <h4 className="title" style={{fontSize: '1.5em'}}>
                       <a href="single-portfolio.html">Telecommunication</a>
                     </h4>
                     {/* <span className="subtitle">Website, UI/UX</span> */}
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 project mobile">
+              <br/>
+              <div className="col-md-6 project mobile"  style={{height:200, width:300}}>
                 <div className="project-grid">
                   <div className="thumbnail">
                     <a href="single-portfolio.html">
@@ -95,10 +97,9 @@ const Projects = () => {
                     </a>
                   </div>
                   <div className="content">
-                    <h4 className="title">
+                  <h4 className="title" style={{fontSize: '1.5em'}}>
                       <a href="single-portfolio.html">Government</a>
                     </h4>
-                    {/* <span className="subtitle">Branding, Website, IOS App</span> */}
                   </div>
                 </div>
               </div>

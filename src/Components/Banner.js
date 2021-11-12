@@ -27,7 +27,7 @@ export const Banner = () => {
                 >
                   <h4
                     className="title"
-                    style={{color: 'white', fontSize: '2.5rem', fontStyle: 'italic', fontWeight: '500'}}
+                    style={{color: 'white', fontSize: '1.5rem', fontWeight: '500'}}
                   >
                    We are committed to empowering organizations to excel in the ever evolving global market.
                   </h4>

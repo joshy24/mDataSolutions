@@ -20,18 +20,18 @@ export const Banner = () => {
                 >
                   We Transform People & Organizations <br /> Through Technology
                 </h1>
-                {/* <div
+                <div
                   data-sal="slide-up"
                   data-sal-duration="1000"
                   data-sal-delay="100"
                 >
-                  <a
-                    href="portfolio.html"
-                    className="axil-btn btn-fill-white btn-large"
+                  <h4
+                    className="title"
+                    style={{color: 'white', fontSize: '2.5rem', fontStyle: 'italic', fontWeight: '500'}}
                   >
-                    View Showcase
-                  </a>
-                </div> */}
+                   We are committed to empowering organizations to excel in the ever evolving global market.
+                  </h4>
+                </div>
               </div>
             </div>
             {/* <div

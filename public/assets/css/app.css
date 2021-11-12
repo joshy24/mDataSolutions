@@ -61,7 +61,7 @@ STYLESHEET INDEXING
     Variables
 -------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 :root {
     --color-primary: #5956E9;
     --color-white: #ffffff;
@@ -97,7 +97,7 @@ STYLESHEET INDEXING
     --border-lighter: 1px solid #ECF2F6;
     --border-dark: 1px solid var(--color-ship-gray);
     --border-gray: 1px solid var(--color-gray-4);
-    --font-primary: 'DM Sans', sans-serif;
+    --font-primary: 'Nunito Sans', sans-serif;
     --font-secondary: 'Poppins', sans-serif;
     --font-awesome: 'Font Awesome 5 Pro';
     --transition: all 0.3s ease-in-out;
@@ -3162,7 +3162,7 @@ Pagination
 }
 
 .banner.banner-style-5 {
-    background-image: url("../media/banner/landing1.jpeg");
+    background-image: url("../media/banner/landing2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

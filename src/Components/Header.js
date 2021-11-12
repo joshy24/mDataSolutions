@@ -47,28 +47,42 @@ export const Header = () => {
                 </div>
                 <ul className="mainmenu">
                   <li>
-                    <Link to="/" style={{color: '#0d6efd'}}>Home</Link>
+                    <Link to="/" style={{ color: "#828282" }}>
+                      Home
+                    </Link>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);" style={{color: '#0d6efd'}}>Digital Transformation </a>
+                    <a href="javascript:void(0);" style={{ color: "#828282" }}>
+                      Digital Transformation{" "}
+                    </a>
                     <ul className="axil-submenu">
-                    <li>
-                        <Link to="/digital-transformation">Digital Transformation</Link>
+                      <li>
+                        <Link to="/digital-transformation">
+                          Digital Transformation
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/document-management">Document Management</Link>
+                        <Link to="/document-management">
+                          Document Management
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/buisness-process-automation">Business Process Automation</Link>
+                        <Link to="/buisness-process-automation">
+                          Business Process Automation
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/software-technology">Software & Technology</Link>
+                        <Link to="/software-technology">
+                          Software & Technology
+                        </Link>
                       </li>
                     </ul>
                   </li>
 
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);" style={{color: '#0d6efd'}}>Security & Risk </a>
+                    <a href="javascript:void(0);" style={{ color: "#828282" }}>
+                      Security & Risk{" "}
+                    </a>
                     <ul className="axil-submenu">
                       <li>
                         <a href="service.html">Service</a>
@@ -82,8 +96,14 @@ export const Header = () => {
                     </ul>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);" style={{color: '#0d6efd'}}>Training</a>
+                    <a href="javascript:void(0);" style={{ color: "#828282" }}>
+                      Training
+                    </a>
                     <ul className="axil-submenu">
+                      <li>
+                        <Link to="/our-approach">Our Approach</Link>
+                      </li>
+
                       <li>
                         <a href="/">Certification Offerings</a>
                       </li>
@@ -111,17 +131,20 @@ export const Header = () => {
                       <li>
                         <a href="/">Cybersecurity </a>
                       </li>
+                      <li>
+                        <Link to="/training-schedule">Training Schedule</Link>
+                      </li>
                     </ul>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);" style={{color: '#0d6efd'}}>About Us</a>
+                    <a href="javascript:void(0);" style={{ color: "#828282" }}>
+                      About Us
+                    </a>
                     <ul className="axil-submenu">
-                    <li>
+                      <li>
                         <Link to="/about-us">About Us</Link>
                       </li>
-                      <li>
-                        <Link to="/our-approach">Our Approach</Link>
-                      </li>
+
                       <li>
                         <Link to="/our-values">Our Values </Link>
                       </li>
@@ -130,9 +153,6 @@ export const Header = () => {
                       </li>
                       <li>
                         <Link to="/partners">Partners & Clients</Link>
-                      </li>
-                      <li>
-                        <Link to="/training-schedule">Training Schedule</Link>
                       </li>
                     </ul>
                   </li>

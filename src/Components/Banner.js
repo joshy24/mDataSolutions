@@ -18,9 +18,9 @@ export const Banner = () => {
                   data-sal-duration="1000"
                   data-sal-delay="200"
                 >
-                  Technology &amp; design Studio
+                  We Transform People & Organizations <br /> Through Technology
                 </h1>
-                <div
+                {/* <div
                   data-sal="slide-up"
                   data-sal-duration="1000"
                   data-sal-delay="100"
@@ -31,10 +31,10 @@ export const Banner = () => {
                   >
                     View Showcase
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
-            <div
+            {/* <div
               className="col-lg-6 col-xl-5"
               data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100"
             >
@@ -91,7 +91,7 @@ export const Banner = () => {
                   </form>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

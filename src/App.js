@@ -18,6 +18,7 @@ import DigitalTransformation from "./Components/digital/DigitalTransformation";
 import BusinessAutomation from "./Components/digital/BusinessAutomation";
 import Contact from "./Pages/Contact";
 import Grc from "./Components/security/Grc";
+import { ErrorPage } from "./Components/ErrorPage";
 
 function App() {
   useEffect(() => {
@@ -48,10 +49,12 @@ function App() {
 
           {/* security and risk  */}
           <Route exact path="/grc" element={<Grc />} />
-
           
           <Route exact path="/services" element={<Service />} />
           <Route exact path="/contact" element={<Contact />} />
+
+          <Route exact path="*" element={<ErrorPage />} />
+
         </Routes>
         <Footer />
       </Router>

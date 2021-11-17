@@ -28,12 +28,19 @@ const Home = () => {
             >
               <div class="footer-widget border-end">
                 <div class="footer-newsletter">
-                  <h2 class="title">Get in touch!</h2>
+                  <h2 class="title"> Paper – Digital – Cloud</h2>
                   <p>
-                    Fusce varius, dolor tempor interdum tristique, dui urna bib
-                    endum magna, ut ullamcorper purus
+                    Digitize your paper-based records and archives; join the
+                    future of work, access and interact with your files anywhere
+                    in the world.
                   </p>
-                  <form>
+                  <h2 class="title"> Bespoke Software Development</h2>
+                  <p>
+                    Software applications designed and developed just for you.
+                    Web, Mobile and Enterprise. If you can imagine it, we can
+                    bring it to life.
+                  </p>
+                  {/* <form>
                     <div class="input-group">
                       <input
                         type="email"
@@ -44,7 +51,7 @@ const Home = () => {
                         Subscribe
                       </button>
                     </div>
-                  </form>
+                  </form> */}
                 </div>
               </div>
             </div>

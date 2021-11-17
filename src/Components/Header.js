@@ -81,17 +81,23 @@ export const Header = () => {
 
                   <li className="menu-item-has-children">
                     <a href="javascript:void(0);" style={{ color: "#828282" }}>
-                      Security & Risk{" "}
+                      Security & Risk
                     </a>
                     <ul className="axil-submenu">
                       <li>
-                        <a href="service.html">Service</a>
+                        <Link to="/grc">Grc</Link>
                       </li>
                       <li>
-                        <a href="service-2.html">Service Two</a>
+                        <Link to="/">Information Technology Audit</Link>
                       </li>
                       <li>
-                        <a href="service-design.html">Service Details</a>
+                        <Link to="/">Information Security</Link>
+                      </li>
+                      <li>
+                        <Link to="/">Enterprise Risk Management</Link>
+                      </li>
+                      <li>
+                        <Link to="/">Reputatinal Risk Management</Link>
                       </li>
                     </ul>
                   </li>

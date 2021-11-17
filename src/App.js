@@ -17,6 +17,7 @@ import DocumentManagement from "./Components/digital/DocumentManagement";
 import DigitalTransformation from "./Components/digital/DigitalTransformation";
 import BusinessAutomation from "./Components/digital/BusinessAutomation";
 import Contact from "./Pages/Contact";
+import Grc from "./Components/security/Grc";
 
 function App() {
   useEffect(() => {
@@ -44,6 +45,9 @@ function App() {
           <Route exact path="/software-technology" element={<Software />} />
           <Route exact path="/document-management" element={<DocumentManagement />} />
           <Route exact path="/buisness-process-automation" element={<BusinessAutomation />} />
+
+          {/* security and risk  */}
+          <Route exact path="/grc" element={<Grc />} />
 
           
           <Route exact path="/services" element={<Service />} />

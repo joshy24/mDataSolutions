@@ -3,6 +3,7 @@ import tele from '../images/tele.jpg';
 import gov from '../images/gov.jpg';
 import gas from '../images/gas.jpg';
 import bank from '../images/bank.jpg';
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -28,20 +29,20 @@ const Projects = () => {
               </button>
             </div> */}
             <div className="row row-35 isotope-list">
-              <div className="col-md-6 project branding"  style={{height:150, width:300}}>
+              <div className="col-md-6 project branding"  style={{height:150, width:300, marginTop:30, marginBottom:30}}>
                 <div className="project-grid">
                   <div className="thumbnail">
-                    <a href="single-portfolio.html">
+                  <Link to="/">
                       <img
                         src={gov}
                         alt="project"
-                        style={{height:180, width:285}}
+                        style={{height:150, width:285}}
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
                   <h4 className="title" style={{fontSize: '1.5em'}}>
-                      <a href="single-portfolio.html">Oil & Gas</a>
+                      <Link to="/">Oil & Gas</Link>
                     </h4>
                     {/* <span className="subtitle">
                       Full Branding, Website, App
@@ -49,56 +50,56 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 project mobile"  style={{height:200, width:300}}>
+              <div className="col-md-6 project mobile"  style={{height:200, width:300, marginTop:30, marginBottom:30}}>
                 <div className="project-grid">
                   <div className="thumbnail">
-                    <a href="single-portfolio.html">
+                    <Link to="/">
                       <img
                         src={gas}
                         alt="project"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
                   <h4 className="title" style={{fontSize: '1.5em'}}>
-                      <a href="single-portfolio.html">Banking</a>
+                      <Link to="/">Banking</Link>
                     </h4>
                     {/* <span className="subtitle">Logo, Website & Mobile App</span> */}
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 project branding" style={{height:200, width:300}}>
+              <div className="col-md-6 project branding" style={{height:200, width:300, marginTop:30, marginBottom:30}}>
                 <div className="project-grid">
                   <div className="thumbnail">
-                    <a href="single-portfolio.html">
+                    <Link to="/">
                       <img
                         src={bank}
                         alt="project"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
                     <h4 className="title" style={{fontSize: '1.5em'}}>
-                      <a href="single-portfolio.html">Telecommunication</a>
+                      <Link to="/" className="text-center" style={{marginLeft:-20}}>Telecommunication</Link>
                     </h4>
                     {/* <span className="subtitle">Website, UI/UX</span> */}
                   </div>
                 </div>
               </div>
               <br/>
-              <div className="col-md-6 project mobile"  style={{height:200, width:300}}>
+              <div className="col-md-6 project mobile"  style={{height:200, width:300, marginTop:30, marginBottom:30}}>
                 <div className="project-grid">
                   <div className="thumbnail">
-                    <a href="single-portfolio.html">
+                    <Link to="/">
                       <img
                         src={tele}
                         alt="project"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
                   <h4 className="title" style={{fontSize: '1.5em'}}>
-                      <a href="single-portfolio.html">Government</a>
+                      <Link to="/">Government</Link>
                     </h4>
                   </div>
                 </div>

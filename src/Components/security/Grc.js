@@ -18,7 +18,7 @@ const Grc = () => {
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">GRC (GOVERNANCE RISK COMPLIANCE)</h1>
+                <h1 class="title h2">GOVERNANCE RISK COMPLIANCE</h1>
               </div>
             </div>
             <div class="col-lg-6">
@@ -67,7 +67,7 @@ const Grc = () => {
             <div class="col-lg-5">
               <div class="section-heading heading-left mb-0">
                 {/* <span class="subtitle">Software, Technology</span> */}
-                <h3 class="title">GRC (GOVERNANCE RISK COMPLIANCE)</h3>
+                <h3 class="title">GOVERNANCE RISK COMPLIANCE</h3>
               </div>
               <p>
                 In today’s connected world Information Technology (IT) plays a

@@ -5,7 +5,6 @@ import OurApproach from "./Components/about/OurApproach";
 import Footer from "./Components/Footer";
 import { Header } from "./Components/Header";
 import Service from "./Components/Service";
-import About from "./Pages/About";
 import Home from "./Pages/Home";
 import OurValues from "./Components/about/OurValues";
 import WhyUs from "./Components/about/WhyUs";
@@ -18,6 +17,14 @@ import Analysis from "./Components/training/businessAnalysis/Analysis";
 import Risks from "./Components/training/riskManagement/Risks";
 import BigData from "./Components/training/bigData/BigData";
 import Leadership from "./Components/training/leadership/Leadership";
+import AboutUs from "./Components/about/AboutUs";
+import Software from "./Components/digital/Software";
+import DocumentManagement from "./Components/digital/DocumentManagement";
+import DigitalTransformation from "./Components/digital/DigitalTransformation";
+import BusinessAutomation from "./Components/digital/BusinessAutomation";
+import Contact from "./Pages/Contact";
+import Grc from "./Components/security/Grc";
+import { ErrorPage } from "./Components/ErrorPage";
 
 function App() {
   useEffect(() => {
@@ -29,11 +36,12 @@ function App() {
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          {/* about pages  */}
+
+          {/* about us pages  */}
           <Route exact path="/our-approach" element={<OurApproach />} />
           <Route exact path="/our-values" element={<OurValues />} />
           <Route exact path="/why-us" element={<WhyUs />} />
+          <Route exact path="/about-us" element={<AboutUs />} />
           <Route exact path="/become-instructor" element={<BecomeInstructor />} />
           <Route exact path="/partners" element={<Partners />} />
           <Route exact path="/training-schedule" element={<Training />} />
@@ -48,7 +56,20 @@ function App() {
           <Route exact path="/leadership" element={<Leadership />} />
           {/*End of Training Pages*/}
 
+          {/* digital transformation pages  */}
+          <Route exact path="/digital-transformation" element={<DigitalTransformation />} />
+          <Route exact path="/software-technology" element={<Software />} />
+          <Route exact path="/document-management" element={<DocumentManagement />} />
+          <Route exact path="/buisness-process-automation" element={<BusinessAutomation />} />
+
+          {/* security and risk  */}
+          <Route exact path="/grc" element={<Grc />} />
+
           <Route exact path="/services" element={<Service />} />
+          <Route exact path="/contact" element={<Contact />} />
+
+          <Route exact path="*" element={<ErrorPage />} />
+
         </Routes>
         <Footer />
       </Router>

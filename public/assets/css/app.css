@@ -61,7 +61,7 @@ STYLESHEET INDEXING
     Variables
 -------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 :root {
     --color-primary: #5956E9;
     --color-white: #ffffff;
@@ -97,7 +97,7 @@ STYLESHEET INDEXING
     --border-lighter: 1px solid #ECF2F6;
     --border-dark: 1px solid var(--color-ship-gray);
     --border-gray: 1px solid var(--color-gray-4);
-    --font-primary: 'DM Sans', sans-serif;
+    --font-primary: 'Nunito Sans', sans-serif;
     --font-secondary: 'Poppins', sans-serif;
     --font-awesome: 'Font Awesome 5 Pro';
     --transition: all 0.3s ease-in-out;
@@ -3162,7 +3162,7 @@ Pagination
 }
 
 .banner.banner-style-5 {
-    background-image: url("../media/banner/banner-bg-1.png");
+    background-image: url("../media/banner/landing3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -3223,25 +3223,25 @@ Pagination
 
 @media only screen and (max-width: 1199px) {
     .banner.banner-style-5 .banner-content .title {
-        font-size: 70px;
+        font-size: 40px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .banner.banner-style-5 .banner-content .title {
-        font-size: 60px;
+        font-size: 30px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .banner.banner-style-5 .banner-content .title {
-        font-size: 50px;
+        font-size: 30px;
     }
 }
 
 @media only screen and (max-width: 575px) {
     .banner.banner-style-5 .banner-content .title {
-        font-size: 40px;
+        font-size: 20px;
         margin-bottom: 40px;
     }
 }

@@ -1,9 +1,8 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import sal from "sal.js";
-import about2 from '../../images/about2.png'
+import business from "../../images/business.png";
 
-
-const OurValues = () => {
+const Grc = () => {
   useEffect(() => {
     sal();
   }, []);
@@ -19,7 +18,7 @@ const OurValues = () => {
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">Our Values</h1>
+                <h1 class="title h2">GOVERNANCE RISK COMPLIANCE</h1>
               </div>
             </div>
             <div class="col-lg-6">
@@ -29,11 +28,7 @@ const OurValues = () => {
                 data-sal-duration="1000"
                 data-sal-delay="400"
               >
-                <img
-                  class="paralax-image"
-                  src={about2}
-                  alt="Illustration"
-                />
+                <img class="paralax-image" src={business} alt="Illustration" />
               </div>
             </div>
           </div>
@@ -69,6 +64,24 @@ const OurValues = () => {
       <section class="section-padding single-portfolio-area">
         <div class="container">
           <div class="row">
+            <div class="col-lg-5">
+              <div class="section-heading heading-left mb-0">
+                {/* <span class="subtitle">Software, Technology</span> */}
+                <h3 class="title">GOVERNANCE RISK COMPLIANCE</h3>
+              </div>
+              <p>
+                In today’s connected world Information Technology (IT) plays a
+                major role within all organizations; be it a manufacturing
+                company or a service organization or a Bank. Most organizations
+                invest in IT and setup a function to manage the IT
+                infrastructure and services; they call it the 'IT Department'!
+              </p>
+              <p>
+                IThe IT Governance System that we have designed offers best of the global practices in IT Service Management, Information Security, IT Service Continuity, etc. Our IT Governance system has adopted processes offered by global frameworks and standards like CMMI, COBIT, ITIL, ISO 20000-1, ISO 270001 and ISO 22301.
+              </p>
+            </div>
+          </div>
+          <div class="row">
             <div class="col-lg-8 offset-xl-1">
               <div className="faq-accordion">
                 <div className="accordion" id="accordion">
@@ -76,12 +89,12 @@ const OurValues = () => {
                     <h6 className="accordion-header">
                       <button className="accordion-button" type="button" data-bs-toggle="collapse"
                               data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                        CLIENT FOCUS
+                       IT AUDIT & ADVISORY SERVICES
                       </button>
                     </h6>
                     <div id="faq1" className="accordion-collapse collapse show" data-bs-parent="#accordion">
                       <div className="accordion-body">
-                        <p>Our clients are our partners, and their interests and needs are our utmost priority. We are intensely focused on providing them with the best solutions for their needs.</p>
+                        <p>Information Technology (IT) is becoming increasingly important to the business strategy, operations and interna</p>
                       </div>
                     </div>
                   </div>
@@ -89,12 +102,12 @@ const OurValues = () => {
                     <h6 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                               data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                        COMMITMENT & ACCOUNTABILITY
+                        BUSINESS PROCESS ANALYSIS
                       </button>
                     </h6>
                     <div id="faq2" className="accordion-collapse collapse" data-bs-parent="#accordion">
                       <div className="accordion-body">
-                        <p>Our clients can trust that we are committed to and accountable for delivering their requirements with passion and diligence – excellent quality, on time, and on budget.</p>
+                        <p>Most organizations are setup in an ad-hoc manner. The initial business plan is established with a view to cater to the..</p>
                       </div>
                     </div>
                   </div>
@@ -102,12 +115,12 @@ const OurValues = () => {
                     <h6 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                               data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
-                        INTEGRITY & TRANSPARENCY
+                        GOVERNANCE RISK COMPLIANCE (GRC)
                       </button>
                     </h6>
                     <div id="faq3" className="accordion-collapse collapse" data-bs-parent="#accordion">
                       <div className="accordion-body">
-                        <p>We always seek to communicate honestly and humbly and to do what is fair.</p>
+                        <p>In today’s connected world Information Technology (IT) plays a major role within all organizations;</p>
                       </div>
                     </div>
                   </div>
@@ -115,12 +128,12 @@ const OurValues = () => {
                     <h6 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                               data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
-                        INNOVATION & CHANGE
+                        INFORMATION SECURITY
                       </button>
                     </h6>
                     <div id="faq4" className="accordion-collapse collapse" data-bs-parent="#accordion">
                       <div className="accordion-body">
-                        <p>We are a team of project managers, trainers, researchers, analysts and innovators in the way we do business with our clients. We embrace and drive constructive change in our business and for our stakeholders.</p>
+                        <p>MData Solution’s IT and security consulting services assist and guide businesses in enabling a robust, over-arching security</p>
                       </div>
                     </div>
                   </div>
@@ -128,12 +141,12 @@ const OurValues = () => {
                     <h6 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                               data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
-                        PEOPLE & TEAMWORK
+                        ENTERPRISE RISK MANAGEMENT
                       </button>
                     </h6>
                     <div id="faq5" className="accordion-collapse collapse" data-bs-parent="#accordion">
                       <div className="accordion-body">
-                        <p>We want our people and teams to work positively, learn and grow, deliver on commitments, and have fun in the process.</p>
+                        <p>Several factors are contributing to the demand for ERM, such as increased speed of change, growing market volatility and complexity, higher expectations from investors</p>
                       </div>
                     </div>
                   </div>
@@ -141,12 +154,12 @@ const OurValues = () => {
                     <h6 className="accordion-header">
                       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                               data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
-                        EXCELLENCE
+                        REPUTATIONAL RISK MANAGEMENT
                       </button>
                     </h6>
                     <div id="faq6" className="accordion-collapse collapse" data-bs-parent="#accordion">
                       <div className="accordion-body">
-                        <p>We discover and define, we measure and analyze, we create and optimize, we monitor and control – that is how we achieve the pinnacles of excellence.</p>
+                        <p>WYour corporate reputation is critical to the profitability of your business. A damaged reputation will impact sales, your ability to attract and retain top talent.</p>
                       </div>
                     </div>
                   </div>
@@ -156,7 +169,10 @@ const OurValues = () => {
           </div>
         </div>
       </section>
+
+
     </>
   );
 };
-export default OurValues;
+
+export default Grc;

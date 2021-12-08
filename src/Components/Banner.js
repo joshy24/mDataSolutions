@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 // import sal from 'sal.js'
 
 export const Banner = () => {
@@ -18,23 +18,23 @@ export const Banner = () => {
                   data-sal-duration="1000"
                   data-sal-delay="200"
                 >
-                  Technology &amp; design Studio
+                  We Transform People & Organizations <br /> Through Technology
                 </h1>
                 <div
                   data-sal="slide-up"
                   data-sal-duration="1000"
                   data-sal-delay="100"
                 >
-                  <a
-                    href="portfolio.html"
-                    className="axil-btn btn-fill-white btn-large"
+                  <h4
+                    className="title"
+                    style={{color: 'white', fontSize: '1.5rem', fontWeight: '500'}}
                   >
-                    View Showcase
-                  </a>
+                   We are committed to empowering organizations to excel in the ever evolving global market.
+                  </h4>
                 </div>
               </div>
             </div>
-            <div
+            {/* <div
               className="col-lg-6 col-xl-5"
               data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100"
             >
@@ -79,7 +79,7 @@ export const Banner = () => {
                         className="axil-btn btn-borderd btn-fluid btn-primary"
                         name="submit-btn"
                       >
-                        Get Pricing Now
+                        Contact Us
                       </button>
                     </div>
                     <input
@@ -91,7 +91,7 @@ export const Banner = () => {
                   </form>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

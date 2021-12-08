@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -10,7 +10,11 @@ export const Header = () => {
           <div className="header-navbar">
             <div className="header-logo">
               <a href="index-1.html">
-                <img src="assets/media/logo-3.svg" alt="logo"/>
+                <img
+                  src="assets/media/mdata.png"
+                  alt="logo"
+                  style={{ height: 50, width: 130 }}
+                />
               </a>
             </div>
             <div className="header-main-nav">
@@ -18,18 +22,20 @@ export const Header = () => {
                 <div className="d-block d-lg-none">
                   <div className="mobile-nav-header">
                     <div className="mobile-nav-logo">
-                      <a href="index-1.html">
+                      <Link to="/">
                         <img
                           className="light-mode"
-                          src="assets/media/logo-2.svg"
+                          src="assets/media/mdata.png"
                           alt="Site Logo"
+                          style={{ height: 50, width: 130 }}
                         />
                         <img
                           className="dark-mode"
-                          src="assets/media/logo-3.svg"
+                          src="assets/media/mdata.png"
                           alt="Site Logo"
+                          style={{ height: 50, width: 130 }}
                         />
-                      </a>
+                      </Link>
                     </div>
                     <button
                       className="mobile-menu-close"
@@ -41,40 +47,81 @@ export const Header = () => {
                 </div>
                 <ul className="mainmenu">
                   <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/" style={{ color: "#828282" }}>
+                      Home
+                    </Link>
+                  </li>
+                  <li className="menu-item-has-children">
+                    <a href="javascript:void(0);" style={{ color: "#828282" }}>
+                      Digital Transformation{" "}
+                    </a>
+                    <ul className="axil-submenu">
+                      <li>
+                        <Link to="/digital-transformation">
+                          Digital Transformation
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/document-management">
+                          Document Management
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/buisness-process-automation">
+                          Business Process Automation
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/software-technology">
+                          Software & Technology
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
 
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);">About Us</a>
+                    <a href="javascript:void(0);" style={{ color: "#828282" }}>
+                      Security & Risk
+                    </a>
                     <ul className="axil-submenu">
                       <li>
-                        <Link to="/our-approach">Our Approach</Link>
+                        <Link to="/grc">Grc</Link>
                       </li>
                       <li>
-                        <Link to="/our-values">Our Values </Link>
+                        <Link to="/">Information Technology Audit</Link>
                       </li>
                       <li>
-                        <Link to="/why-us">Why Us</Link>
+                        <Link to="/">Information Security</Link>
                       </li>
                       <li>
-                        <Link to="/become-instructor">Become an Instructor</Link>
+                        <Link to="/">Enterprise Risk Management</Link>
                       </li>
                       <li>
-                        <Link to="/partners">Partners & Clients</Link>
-                      </li>
-                      <li>
-                        <Link to="/training-schedule">Training Schedule</Link>
+                        <Link to="/">Reputatinal Risk Management</Link>
                       </li>
                     </ul>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);">Training</a>
+                    <a href="javascript:void(0);" style={{ color: "#828282" }}>
+                      Training
+                    </a>
                     <ul className="axil-submenu">
                       <li>
                         <Link to="/certification-offerings">Certification Offerings</Link>
+                        <Link to="/our-approach">Our Approach</Link>
+                      </li>
+
+                      <li>
+                        <a href="/">Certification Offerings</a>
                       </li>
                       <li>
                         <Link to="/pm-offerings">Project Management Offerings</Link>
+                      </li>
+
+                      <li>
+                        <Link to="/become-instructor">
+                          Become an Instructor
+                        </Link>
                       </li>
                       <li>
                         <Link to="/business-analysis">Business Analysis</Link>
@@ -91,24 +138,30 @@ export const Header = () => {
                       <li>
                         <Link to="/cyber-security">Cyber Security Awareness Training</Link>
                       </li>
+                      <li>
+                        <Link to="/training-schedule">Training Schedule</Link>
+                      </li>
                     </ul>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);">Security & Risk </a>
+                    <a href="javascript:void(0);" style={{ color: "#828282" }}>
+                      About Us
+                    </a>
                     <ul className="axil-submenu">
                       <li>
-                        <a href="service.html">Service</a>
+                        <Link to="/about-us">About Us</Link>
+                      </li>
+
+                      <li>
+                        <Link to="/our-values">Our Values </Link>
                       </li>
                       <li>
-                        <a href="service-2.html">Service Two</a>
+                        <Link to="/why-us">Why Us</Link>
                       </li>
                       <li>
-                        <a href="service-design.html">Service Details</a>
+                        <Link to="/partners">Partners & Clients</Link>
                       </li>
                     </ul>
-                  </li>
-                  <li>
-                    <a href="contact.html">Document Management</a>
                   </li>
                 </ul>
               </nav>
@@ -116,9 +169,9 @@ export const Header = () => {
             <div className="header-action">
               <ul className="list-unstyled">
                 <li className="header-btn">
-                  <a href="contact.html" className="axil-btn btn-fill-white">
+                  <Link to="/contact" className="axil-btn btn-fill-white">
                     Let's Talk
-                  </a>
+                  </Link>
                 </li>
                 <li className="mobile-menu-btn sidemenu-btn d-lg-none d-block">
                   <button

@@ -1,4 +1,10 @@
 import React from "react";
+import tele from '../images/tele.jpg';
+import gov from '../images/gov.jpg';
+import gas from '../images/gas.jpg';
+import bank from '../images/bank.jpg';
+// import test from '../images/telx.jpeg';
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -6,131 +12,83 @@ const Projects = () => {
       <section className="section section-padding-2 bg-color-light">
         <div className="container">
           <div className="section-heading heading-left">
-            <span className="subtitle">Our Project</span>
+            <span className="subtitle">Industries</span>
             <h2 className="title">
-              Some of our <br /> finest work.
+              Some sectors <br /> we work with.
             </h2>
           </div>
-          <div className="axil-isotope-wrapper">
-            <div className="isotope-button isotope-project-btn">
-              <button data-filter="*" className="is-checked">
-                <span className="filter-text">All Works</span>
-              </button>
-              <button data-filter=".branding">
-                <span className="filter-text">Branding</span>
-              </button>
-              <button data-filter=".mobile">
-                <span className="filter-text">Mobile</span>
-              </button>
-            </div>
+          <div className="axil-isotope-wrapper" style={{marginBottom:30}}>
             <div className="row row-35 isotope-list">
-              <div className="col-md-6 project branding">
+              <div className="col-md-6 project branding"  style={{height:150, width:300, marginTop:30, marginBottom:30}}>
                 <div className="project-grid">
                   <div className="thumbnail">
-                    <a href="single-portfolio.html">
+                  <Link to="/">
                       <img
-                        src="assets/media/project/project-1.png"
+                        src={gas}
                         alt="project"
+                        style={{height:150, width:285}}
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
-                    <h4 className="title">
-                      <a href="single-portfolio.html">Creative Agency</a>
+                  <h4 className="title" style={{fontSize: '1.5em'}}>
+                      <Link to="/">Oil & Gas</Link>
                     </h4>
-                    <span className="subtitle">
-                      Full Branding, Website, App
-                    </span>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 project mobile">
+              <div className="col-md-6 project mobile"  style={{height:200, width:300, marginTop:30, marginBottom:30}}>
                 <div className="project-grid">
                   <div className="thumbnail">
-                    <a href="single-portfolio.html">
+                    <Link to="/">
                       <img
-                        src="assets/media/project/project-2.png"
+                        src={tele}
                         alt="project"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
-                    <h4 className="title">
-                      <a href="single-portfolio.html">Digital Marketing</a>
+                  <h4 className="title" style={{fontSize: '1.5em'}}>
+                      <Link to="/" style={{marginLeft:-35}}>Telecommunications</Link>
                     </h4>
-                    <span className="subtitle">Logo, Website & Mobile App</span>
+                    {/* <span className="subtitle">Logo, Website & Mobile App</span> */}
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 project branding">
+              <div className="col-md-6 project branding" style={{height:200, width:300, marginTop:30, marginBottom:30}}>
                 <div className="project-grid">
                   <div className="thumbnail">
-                    <a href="single-portfolio.html">
+                    <Link to="/">
                       <img
-                        src="assets/media/project/project-3.png"
+                        src={bank}
                         alt="project"
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
-                    <h4 className="title">
-                      <a href="single-portfolio.html">Digital Agency</a>
+                    <h4 className="title" style={{fontSize: '1.5em'}}>
+                      <Link to="/" className="text-center" >Banking</Link>
                     </h4>
-                    <span className="subtitle">Website, UI/UX</span>
+                    {/* <span className="subtitle">Website, UI/UX</span> */}
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 project mobile">
+              <br/>
+              <div className="col-md-6 project mobile"  style={{height:200, width:300, marginTop:30, marginBottom:30}}>
                 <div className="project-grid">
                   <div className="thumbnail">
-                    <a href="single-portfolio.html">
+                    <Link to="/">
                       <img
-                        src="assets/media/project/project-4.png"
+                        src={gov}
                         alt="project"
+                        style={{height:150, width:285}}
                       />
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
-                    <h4 className="title">
-                      <a href="single-portfolio.html">Social Engagement</a>
+                  <h4 className="title" style={{fontSize: '1.5em'}}>
+                      <Link to="/">Government</Link>
                     </h4>
-                    <span className="subtitle">Branding, Website, IOS App</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 project branding">
-                <div className="project-grid">
-                  <div className="thumbnail">
-                    <a href="single-portfolio.html">
-                      <img
-                        src="assets/media/project/project-5.png"
-                        alt="project"
-                      />
-                    </a>
-                  </div>
-                  <div className="content">
-                    <h4 className="title">
-                      <a href="single-portfolio.html">Plan Management</a>
-                    </h4>
-                    <span className="subtitle">Design, Development</span>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 project mobile">
-                <div className="project-grid">
-                  <div className="thumbnail">
-                    <a href="single-portfolio.html">
-                      <img
-                        src="assets/media/project/project-6.png"
-                        alt="project"
-                      />
-                    </a>
-                  </div>
-                  <div className="content">
-                    <h4 className="title">
-                      <a href="single-portfolio.html">Web Application</a>
-                    </h4>
-                    <span className="subtitle">Logo, Webapp, App</span>
                   </div>
                 </div>
               </div>

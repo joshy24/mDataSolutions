@@ -1,5 +1,6 @@
 import React, {useEffect} from "react";
 import sal from "sal.js";
+import instructor from '../../images/instructor.png'
 
 const BecomeInstructor = () => {
   useEffect(() => {
@@ -34,7 +35,7 @@ const BecomeInstructor = () => {
               >
                 <img
                   className="paralax-image"
-                  src="assets/media/project/project-2.png"
+                  src={instructor}
                   alt="Illustration"
                 />
               </div>

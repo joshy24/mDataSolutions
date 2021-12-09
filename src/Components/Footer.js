@@ -89,14 +89,14 @@ const Footer = () => {
                                 <span className="copyright-text">Powered by <Link to="https://techspice.com.ng/" target="_blank">Techspice Limited</Link>.</span>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        {/* <div className="col-md-6">
                             <div className="footer-bottom-link">
                                 <ul className="list-unstyled">
                                     <li><Link to="privacy-policy.html">Privacy Policy</Link></li>
                                     <li><Link to="terms-of-use.html">Terms of Use</Link></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

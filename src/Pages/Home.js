@@ -6,6 +6,8 @@ import Projects from "../Components/Projects";
 import Service from "../Components/Service";
 import sal from "sal.js";
 import instructor from "../images/imgg.jpeg";
+import paper from "../images/paper.jpg";
+
 
 const Home = () => {
   useEffect(() => {
@@ -48,7 +50,7 @@ const Home = () => {
                   <div class="footer-widget">
                     <img
                       className="paralax-image"
-                      src={instructor}
+                      src={paper}
                       alt="Illustration"
                       style={{borderRadius: 20, height:300, width:300}}
                     />

@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import sal from "sal.js";
-import business from '../../images/business.png'
+import business from "../../images/business.png";
 
-const InformationTech = () => {
+const InformationTechAudit = () => {
   useEffect(() => {
     sal();
   }, []);
@@ -28,11 +28,7 @@ const InformationTech = () => {
                 data-sal-duration="1000"
                 data-sal-delay="400"
               >
-                <img
-                  class="paralax-image"
-                  src={business}
-                  alt="Illustration"
-                />
+                <img class="paralax-image" src={business} alt="Illustration" />
               </div>
             </div>
           </div>
@@ -71,14 +67,26 @@ const InformationTech = () => {
             <div class="col-lg-5">
               <div class="section-heading heading-left mb-0">
                 {/* <span class="subtitle">Software, Technology</span> */}
-                <h3 class="title">Informationw Tech</h3>
+                <h3 class="title">Information Technology Audit</h3>
               </div>
               <p>
-                Repetitive and boring tasks can be distracting from primary
-                responsibilities and obligations, with MData’s BPA solutions,
-                businesses become more efficient and productive while work gets
-                more interesting for employees. The software simply automates
-                the tasks that are time-consuming.
+                We examine and evaluate an organization’s Information Technology
+                (IT) infrastructure, applications, data use and management,
+                policies, procedures and operational processes recognized
+                standards and established policies. We evaluate if the controls
+                to protect information technology assets ensure integrity and
+                are aligned with organizational goals and objectives.
+                Information Security.
+              </p>
+              <p>
+                MData Solution’s IT & Security consulting services assist
+                businesses and organizations in enabling a robust, over-arching
+                security architecture. We help organizations assess and
+                strengthen their IT security posture. Organizations across
+                Nigeria rely on our team of hand-picked cyber security
+                consultants to think like hackers and act like professionals,
+                exposing and repairing vulnerabilities before they can be
+                exploited by malicious actors.
               </p>
             </div>
           </div>
@@ -88,4 +96,4 @@ const InformationTech = () => {
   );
 };
 
-export default InformationTech;
+export default InformationTechAudit;

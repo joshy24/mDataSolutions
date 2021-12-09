@@ -84,11 +84,15 @@ export const Header = () => {
                       Security & Risk
                     </a>
                     <ul className="axil-submenu">
-                      <li>
-                        <Link to="/grc">Grc</Link>
-                      </li>
+                     
                       <li>
                         <Link to="/">Information Technology Audit</Link>
+                      </li>
+                      <li>
+                        <Link to="/">Business Process Analysis</Link>
+                      </li>
+                      <li>
+                        <Link to="/grc">Governance Risk Compliance</Link>
                       </li>
                       <li>
                         <Link to="/">Information Security</Link>

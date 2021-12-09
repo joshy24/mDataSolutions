@@ -111,6 +111,7 @@ export const Header = () => {
                     </a>
                     <ul className="axil-submenu">
                       <li>
+                        <Link to="/certification-offerings">Certification Offerings</Link>
                         <Link to="/our-approach">Our Approach</Link>
                       </li>
 
@@ -118,7 +119,7 @@ export const Header = () => {
                         <a href="/">Certification Offerings</a>
                       </li>
                       <li>
-                        <a href="/">Project Management Offerings</a>
+                        <Link to="/pm-offerings">Project Management Offerings</Link>
                       </li>
 
                       <li>
@@ -127,19 +128,19 @@ export const Header = () => {
                         </Link>
                       </li>
                       <li>
-                        <a href="/">Business Analysis</a>
+                        <Link to="/business-analysis">Business Analysis</Link>
                       </li>
                       <li>
-                        <a href="/">Risk Management</a>
+                        <Link to="/risk-management">Risk Management</Link>
                       </li>
                       <li>
-                        <a href="/">Big Data</a>
+                        <Link to="/big-data">Big Data</Link>
                       </li>
                       <li>
-                        <a href="/">Leadership </a>
+                        <Link to="/leadership">Leadership & Soft Skills</Link>
                       </li>
                       <li>
-                        <a href="/">Cybersecurity </a>
+                        <Link to="/cyber-security">Cyber Security Awareness Training</Link>
                       </li>
                       <li>
                         <Link to="/training-schedule">Training Schedule</Link>

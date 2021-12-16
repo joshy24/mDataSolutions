@@ -58,7 +58,7 @@ export const Header = () => {
                     <ul className="axil-submenu">
                       <li>
                         <Link to="/digital-transformation">
-                          Digital Transformation
+                          Technology
                         </Link>
                       </li>
                       <li>

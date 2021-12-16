@@ -18,7 +18,7 @@ const BusinessAutomation = () => {
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">Buisness Process Automation</h1>
+                <h1 class="title h2">Business Process Automation</h1>
               </div>
             </div>
             <div class="col-lg-6">

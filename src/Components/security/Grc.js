@@ -159,7 +159,7 @@ const Grc = () => {
                     </h6>
                     <div id="faq6" className="accordion-collapse collapse" data-bs-parent="#accordion">
                       <div className="accordion-body">
-                        <p>WYour corporate reputation is critical to the profitability of your business. A damaged reputation will impact sales, your ability to attract and retain top talent.</p>
+                        <p>Your corporate reputation is critical to the profitability of your business. A damaged reputation will impact sales, your ability to attract and retain top talent.</p>
                       </div>
                     </div>
                   </div>

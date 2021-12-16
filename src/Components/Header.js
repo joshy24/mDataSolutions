@@ -53,12 +53,12 @@ export const Header = () => {
                   </li>
                   <li className="menu-item-has-children">
                     <a href="javascript:void(0);" style={{ color: "#828282" }}>
-                      Digital Transformation{" "}
+                      Digital Technology
                     </a>
                     <ul className="axil-submenu">
                       <li>
                         <Link to="/digital-transformation">
-                          Digital Transformation
+                          Technology
                         </Link>
                       </li>
                       <li>
@@ -84,11 +84,15 @@ export const Header = () => {
                       Security & Risk
                     </a>
                     <ul className="axil-submenu">
+                     
                       <li>
-                        <Link to="/grc">Grc</Link>
+                        <Link to="/information-tech-audit">Information Technology Audit</Link>
                       </li>
                       <li>
-                        <Link to="/">Information Technology Audit</Link>
+                        <Link to="/">Business Process Analysis</Link>
+                      </li>
+                      <li>
+                        <Link to="/grc">Governance Risk Compliance</Link>
                       </li>
                       <li>
                         <Link to="/">Information Security</Link>
@@ -97,7 +101,7 @@ export const Header = () => {
                         <Link to="/">Enterprise Risk Management</Link>
                       </li>
                       <li>
-                        <Link to="/">Reputatinal Risk Management</Link>
+                        <Link to="/">Reputational Risk Management</Link>
                       </li>
                     </ul>
                   </li>

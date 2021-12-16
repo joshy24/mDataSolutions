@@ -108,23 +108,14 @@ export const Header = () => {
                     <ul className="axil-submenu">
                       <li>
                         <Link to="/certification-offerings">Certification Offerings</Link>
-                        <Link to="/our-approach">Our Approach</Link>
-                      </li>
-
-                      <li>
-                        <a href="/">Certification Offerings</a>
                       </li>
                       <li>
                         <Link to="/pm-offerings">Project Management Offerings</Link>
                       </li>
 
+                      
                       <li>
-                        <Link to="/become-instructor">
-                          Become an Instructor
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/business-analysis">Business Analysis</Link>
+                        <Link to="/business-analysis">Business Analysis, Training & Development</Link>
                       </li>
                       <li>
                         <Link to="/risk-management">Risk Management</Link>
@@ -138,9 +129,6 @@ export const Header = () => {
                       <li>
                         <Link to="/cyber-security">Cyber Security Awareness Training</Link>
                       </li>
-                      <li>
-                        <Link to="/training-schedule">Training Schedule</Link>
-                      </li>
                     </ul>
                   </li>
                   <li className="menu-item-has-children">
@@ -151,7 +139,6 @@ export const Header = () => {
                       <li>
                         <Link to="/about-us">About Us</Link>
                       </li>
-
                       <li>
                         <Link to="/our-values">Our Values </Link>
                       </li>
@@ -159,7 +146,15 @@ export const Header = () => {
                         <Link to="/why-us">Why Us</Link>
                       </li>
                       <li>
+                        <Link to="/become-instructor">
+                          Become an Instructor
+                        </Link>
+                      </li>
+                      <li>
                         <Link to="/partners">Partners & Clients</Link>
+                      </li>
+                      <li>
+                        <Link to="/training-schedule">Training Schedule</Link>
                       </li>
                     </ul>
                   </li>

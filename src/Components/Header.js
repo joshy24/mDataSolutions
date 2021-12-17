@@ -53,7 +53,7 @@ export const Header = () => {
                   </li>
                   <li className="menu-item-has-children">
                     <a href="javascript:void(0);" style={{ color: "#828282" }}>
-                      Digital Technology
+                      Technology
                     </a>
                     <ul className="axil-submenu">
                       <li>

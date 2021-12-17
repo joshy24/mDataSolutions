@@ -56,14 +56,18 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="col-xl-5 col-lg-6 offset-xl-1">
+                    <div className="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
+                            <h4 className="title">Address</h4>
+                            <p>3115 Georgia Ave NW, Washington, DC 20010. <br/>+14435380247</p>
+                            <p>Lagos Office : <br/> NO. 1637, Adetokunbo Ademola Street. Opp Eko Hotel, V.I, Lagos. <br/> +234 708 441 0845, +234 802 325 8027</p>
+                            <p>Ibadan Office: <br/> 11, Obe Street, KONGI Bodija, Ibadan, Oyo. <br/> +234 802 325 8027</p>
+                        </div>
                         <div className="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
                             <h4 className="title">Phone</h4>
                             <p>Our customer care is open from Mon-Fri, 10:00 am to 6:00 pm</p>
                             <p>+234 802 325 8027</p>
-                        </div>
-                        <div className="contact-info mb--30">
                             <h4 className="title">Email</h4>
-                            <p>Our support team will get back to in 48-h during standard business hours.</p>
+                            <p>Our support will get back to you soon!</p>
                             <p>info@mdatasolutions.com</p>
                         </div>
                     </div>

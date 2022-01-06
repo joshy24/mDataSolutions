@@ -62,8 +62,8 @@ export const Header = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/document-management">
-                          Document Management
+                        <Link to="/MDocScan">
+                        MDocScan
                         </Link>
                       </li>
                       <li>
@@ -114,7 +114,7 @@ export const Header = () => {
                         <Link to="/certification-offerings">Certification Offerings</Link>
                       </li>
                       <li>
-                        <Link to="/pm-offerings">Project Management Offerings</Link>
+                        <Link to="/ProjectManagement">Project Management Offerings</Link>
                       </li>
 
                       

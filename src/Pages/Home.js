@@ -14,23 +14,26 @@ const Home = () => {
     sal();
   }, []);
   return (
-    <>
+    <div>
       <Banner />
+      <div className="spacingss">
+
       <Service />
       <Projects />
       {/* <Counter /> */}
+
       <section style={{ padding: 40 }}>
-        <div class="footer-main">
-          <div class="row">
+        <div className="footer-main">
+          <div className="row">
             <div
-              class="col-xl-6 col-lg-5"
+              className="col-xl-6 col-lg-5"
               data-sal="slide-right"
               data-sal-duration="800"
               data-sal-delay="100"
             >
-              <div class="footer-widget border-end">
-                <div class="footer-newsletter">
-                  <h2 class="title"> Paper → Digital → Cloud</h2>
+              <div className="footer-widget border-end">
+                <div className="footer-newsletter">
+                  <h2 className="title"> Paper → Digital → Cloud</h2>
                   <p>
                     Digitize your paper-based records and archives; join the
                     future of work, access and interact with your files anywhere
@@ -40,14 +43,14 @@ const Home = () => {
               </div>
             </div>
             <div
-              class="col-xl-6 col-lg-7"
+              className="col-xl-6 col-lg-7"
               data-sal="slide-left"
               data-sal-duration="800"
               data-sal-delay="100"
             >
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="footer-widget">
+              <div className="row">
+                <div className="col-sm-6">
+                  <div className="footer-widget">
                     <img
                       className="paralax-image"
                       src={paper}
@@ -62,17 +65,17 @@ const Home = () => {
         </div>
       </section>
       <section style={{ padding: 40 }}>
-        <div class="footer-main">
-          <div class="row">
+        <div className="footer-main">
+          <div className="row">
           <div
-              class="col-xl-6 col-lg-7"
+              className="col-xl-6 col-lg-7"
               data-sal="slide-left"
               data-sal-duration="800"
               data-sal-delay="100"
             >
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="footer-widget" >
+              <div className="row">
+                <div className="col-sm-6">
+                  <div className="footer-widget" >
                     <img
                       className="paralax-image"
                       src={instructor}
@@ -84,14 +87,14 @@ const Home = () => {
               </div>
             </div>
             <div
-              class="col-xl-6 col-lg-5"
+              className="col-xl-6 col-lg-5"
               data-sal="slide-right"
               data-sal-duration="800"
               data-sal-delay="100"
             >
-              <div class="footer-widget ">
-                <div class="footer-newsletter">
-                  <h2 class="title"> Bespoke Software Development</h2>
+              <div className="footer-widget ">
+                <div className="footer-newsletter">
+                  <h2 className="title"> Bespoke Software Development</h2>
                   <p>
                     Software applications designed and developed just for you.
                     Web, Mobile and Enterprise. If you can imagine it, we can
@@ -106,7 +109,9 @@ const Home = () => {
         </div>
       </section>
       <CallToAction />
-    </>
+      </div>
+
+    </div>
   );
 };
 

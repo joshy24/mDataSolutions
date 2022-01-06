@@ -20,7 +20,7 @@ function Leadership(props) {
                 <h1 class="title h2">LEADERSHIP & SOFT SKILLS</h1>
               </div>
             </div>
-            <div class="col-lg-6">
+            {/* <div class="col-lg-6">
               <div
                 class="banner-thumbnail"
                 data-sal="slide-up"
@@ -33,7 +33,7 @@ function Leadership(props) {
                   alt="Illustration"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <ul class="shape-group-8 list-unstyled">

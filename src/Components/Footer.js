@@ -86,7 +86,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="footer-copyright">
-                                <span className="copyright-text">Powered by <Link to="https://techspice.com.ng/" target="_blank">Techspice Limited</Link>.</span>
+                                <span className="copyright-text">MDATA SOLUTIONS</span>
                             </div>
                         </div>
                         {/* <div className="col-md-6">

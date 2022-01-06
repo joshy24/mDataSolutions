@@ -55,6 +55,7 @@ function Offerings(props) {
                     className="paralax-image"
                     src={Img1}
                     alt="Illustration"
+                    style={{heigth: 120, width: 150}}
                   />
                 </div>
               </div>
@@ -145,7 +146,7 @@ function Offerings(props) {
                   </h1>
                 </div>
               </div>
-              <div className="col-lg-6">
+              {/* <div className="col-lg-6">
                 <div
                   className="banner-thumbnail"
                   data-sal="slide-up"
@@ -158,7 +159,7 @@ function Offerings(props) {
                     alt="Illustration"
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <ul className="shape-group-8 list-unstyled">

@@ -11,7 +11,9 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="footer-copyright">
+                                <Link to="/">
                                 <span className="copyright-text">© Mdata Solutions 2022</span>
+                                </Link>
                             </div>
                         </div>
                     </div>

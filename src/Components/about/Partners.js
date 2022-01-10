@@ -60,7 +60,7 @@ const Partners = () => {
         </ul>
       </div>
 
-      <section className="section-padding single-portfolio-area">
+      <section className="section-padding single-portfolio-area" >
         <div className="container">
           {/* <div className="row"> */}
           <div className="col-lg-12">
@@ -71,12 +71,12 @@ const Partners = () => {
               to our dedication and commitment to the hard work of public<br/> sector
               reform.
             </p>
-            <div className="row">
+            <div className="row" style={{ marginBottom: 40}}>
               <img
                 className="paralax-image"
                 src={mtn}
                 alt="Illustration"
-                style={{ height: 140, width: 300, marginRight: 40 }}
+                style={{ height: 140, width: 300, marginRight: 40, }}
               />
               <img
                 className="paralax-image"
@@ -92,7 +92,7 @@ const Partners = () => {
               />
             </div>
 
-            <div className="row">
+            <div className="row" style={{ marginBottom: 40}}>
               <img
                 className="paralax-image"
                 src={africa}
@@ -113,7 +113,7 @@ const Partners = () => {
               />
             </div>
 
-            <div className="row">
+            <div className="row" style={{ marginBottom: 40}}>
               <img
                 className="paralax-image"
                 src={petro}

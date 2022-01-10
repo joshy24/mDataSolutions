@@ -76,13 +76,13 @@ const Partners = () => {
                 className="paralax-image"
                 src={mtn}
                 alt="Illustration"
-                style={{ height: 140, width: 300 }}
+                style={{ height: 140, width: 300, marginRight: 40 }}
               />
               <img
                 className="paralax-image"
                 src={inspired}
                 alt="Illustration"
-                style={{ height: 140, width: 300 }}
+                style={{ height: 140, width: 300, marginRight: 40 }}
               />
               <img
                 className="paralax-image"
@@ -97,13 +97,13 @@ const Partners = () => {
                 className="paralax-image"
                 src={africa}
                 alt="Illustration"
-                style={{ height: 140, width: 300 }}
+                style={{ height: 140, width: 300, marginRight: 40 }}
               />
               <img
                 className="paralax-image"
                 src={addax}
                 alt="Illustration"
-                style={{ height: 140, width: 300 }}
+                style={{ height: 140, width: 300, marginRight: 40 }}
               />
               <img
                 className="paralax-image"
@@ -118,13 +118,13 @@ const Partners = () => {
                 className="paralax-image"
                 src={petro}
                 alt="Illustration"
-                style={{ height: 140, width: 300 }}
+                style={{ height: 140, width: 300, marginRight: 40 }}
               />
               <img
                 className="paralax-image"
                 src={stock}
                 alt="Illustration"
-                style={{ height: 140, width: 300 }}
+                style={{ height: 140, width: 300, marginRight: 40 }}
               />
               <img
                 className="paralax-image"

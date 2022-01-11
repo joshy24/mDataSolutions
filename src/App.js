@@ -50,7 +50,7 @@ function App() {
 
           {/*Training Pages*/}
           <Route exact path="/certification-offerings" element={<Certification />} />
-          <Route exact path="/pm-offerings" element={<Offerings />} />
+          <Route exact path="/ProjectManagement" element={<Offerings />} />
           <Route exact path="/business-analysis" element={<Analysis />} />
           <Route exact path="/risk-management" element={<Risks />} />
           <Route exact path="/big-data" element={<BigData />} />
@@ -60,7 +60,7 @@ function App() {
           {/* digital transformation pages  */}
           <Route exact path="/digital-transformation" element={<DigitalTransformation />} />
           <Route exact path="/software-technology" element={<Software />} />
-          <Route exact path="/document-management" element={<DocumentManagement />} />
+          <Route exact path="/MDocScan" element={<DocumentManagement />} />
           <Route exact path="/buisness-process-automation" element={<BusinessAutomation />} />
 
           {/* security and risk  */}

@@ -41,7 +41,7 @@ function Certification(props) {
                   <h1 className="title h2">CERTIFICATION OFFERINGS</h1>
                 </div>
               </div>
-              <div className="col-lg-6">
+              {/* <div className="col-lg-6">
                 <div
                   className="banner-thumbnail"
                   data-sal="slide-up"
@@ -54,7 +54,7 @@ function Certification(props) {
                     alt="Illustration"
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <ul className="shape-group-8 list-unstyled">

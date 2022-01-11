@@ -2326,7 +2326,10 @@ Pagination
     overflow: hidden;
     background-color: var(--color-white);
 }
-
+.spacingss {
+    padding-left: 5em;
+    padding-right: 5em;
+}
 /*-------------------------
     Slick 
 -------------------------*/

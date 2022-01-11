@@ -25,7 +25,7 @@ function Risks(props) {
                   </h1>
                 </div>
               </div>
-              <div class="col-lg-6">
+              {/* <div class="col-lg-6">
                 <div
                   class="banner-thumbnail"
                   data-sal="slide-up"
@@ -38,7 +38,7 @@ function Risks(props) {
                     alt="Illustration"
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <ul class="shape-group-8 list-unstyled">

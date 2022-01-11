@@ -110,7 +110,7 @@ function Leadership(props) {
                   />
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
           <ul class="shape-group-8 list-unstyled">
             <li

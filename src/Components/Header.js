@@ -9,13 +9,13 @@ export const Header = () => {
         <div className="container">
           <div className="header-navbar">
             <div className="header-logo">
-              <a href="index-1.html">
+              <Link to="/">
                 <img
                   src="assets/media/mdata.png"
                   alt="logo"
                   style={{ height: 50, width: 130 }}
                 />
-              </a>
+              </Link>
             </div>
             <div className="header-main-nav">
               <nav className="mainmenu-nav" id="mobilemenu-popup">
@@ -52,7 +52,7 @@ export const Header = () => {
                     </Link>
                   </li>
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);" style={{ color: "#828282" }}>
+                  <a href="javascript:void(0);" style={{ color: "#828282" }}>
                       Technology
                     </a>
                     <ul className="axil-submenu">

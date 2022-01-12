@@ -25,7 +25,7 @@
             axilInit.counterUp();
             axilInit.axilSlickActivation();
             axilInit.magnificPopupActivation();
-            axilInit.countdownInit('.countdown', '2021/12/01');
+            axilInit.countdownInit('.countdown', '2022/12/01');
             axilInit.tiltAnimation();
             axilInit.menuLinkActive();
             axilInit.audioPlayerActivation();
@@ -114,29 +114,41 @@
         },
 
         mobileMenuActivation: function(e) {
+            
+            $('.menu-item-has-children > a').on('click', function(e) {
+                
+                var targetParent = $(this).parents('.mainmenu-nav'),
+                    target = $(this).siblings('.axil-submenu'),
+                    targetSiblings = $(this).parent('.menu-item-has-children').siblings().find('.axil-submenu');
+                
+                if (targetParent.hasClass('offcanvas')) {
+                    $(target).slideToggle(400);
+                    $(targetSiblings).slideUp(400);
+                    $(this).parent('.menu-item-has-children').toggleClass('open');
+                    $(this).parent('.menu-item-has-children').siblings().removeClass('open');
+                }
 
+            });
+           
             function resizeClassAdd() {
-                if (window.matchMedia('(max-width: 991px)').matches) {
-                    $('.main-wrapper').on('click','.menu-item-has-children a', function(e) {
-
-                        var targetParent = $(this).parents('.mainmenu-nav'),
-                            target = $(this).siblings('.axil-submenu'),
-                            targetSiblings = $(this).parent('.menu-item-has-children').siblings().find('.axil-submenu');
-
-                        $(target).slideToggle(400);
-
-                        $(targetSiblings).slideUp(400);
-
-                        $(this).parent('.menu-item-has-children').toggleClass('open');
-                        
-                    });
+                if (window.matchMedia('(min-width: 992px)').matches) {
+                    $('body').removeClass('mobilemenu-active');
+                    $('#mobilemenu-popup').removeClass('offcanvas show').removeAttr('style');
+                    $('.axil-mainmenu .offcanvas-backdrop').remove();
+                    $('.axil-submenu').removeAttr('style');
+                } else {
+                    $('body').addClass('mobilemenu-active');
                     $('#mobilemenu-popup').addClass('offcanvas');
-                }else {
-                    $('#mobilemenu-popup').removeClass('offcanvas');
-                    
+                    $('.menu-item-has-children > a').on('click', function(e) {
+                        e.preventDefault();
+                    });
                 }
             }
 
+            $(window).on('resize', function() {
+                resizeClassAdd();
+            });
+            
             resizeClassAdd();
         },
 
@@ -191,14 +203,20 @@
         },
 
         counterUp: function () {
-			var _counter = $('.count');
-			if (_counter.length) {
-				_counter.counterUp({
-					delay: 10,
-					time: 1000,
-					triggerOnce: true
-				});
-			}
+			
+            var elementSelector = $('.count');
+            elementSelector.each(function(){
+                elementSelector.appear(function(e) {
+                    var el = this;
+                    var updateData = $(el).attr("data-count");
+                    var od = new Odometer({
+                        el: el,
+                        format: 'd',
+                        duration: 2000
+                    });
+                    od.update(updateData);
+                });
+            });
         },
 
         axilSlickActivation: function(e) {

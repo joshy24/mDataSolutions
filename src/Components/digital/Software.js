@@ -68,7 +68,7 @@ const Software = () => {
       <section class="section-padding single-portfolio-area">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5">
+          <div class="col-lg-12">
               <div class="section-heading heading-left mb-0">
                 <span class="subtitle">Software, Technology</span>
                 <h3 class="title">Software Development & Technology</h3>

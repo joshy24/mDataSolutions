@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import sal from "sal.js";
-import business from '../../images/business.png'
+import business from "../../images/business.png";
 
 const BusinessAutomation = () => {
   useEffect(() => {
@@ -28,11 +28,7 @@ const BusinessAutomation = () => {
                 data-sal-duration="1000"
                 data-sal-delay="400"
               >
-                <img
-                  class="paralax-image"
-                  src={business}
-                  alt="Illustration"
-                />
+                <img class="paralax-image" src={business} alt="Illustration" />
               </div>
             </div>
           </div>
@@ -68,17 +64,29 @@ const BusinessAutomation = () => {
       <section class="section-padding single-portfolio-area">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-12">
               <div class="section-heading heading-left mb-0">
                 {/* <span class="subtitle">Software, Technology</span> */}
                 <h3 class="title">Buisness Process Automation</h3>
               </div>
               <p>
-                Repetitive and boring tasks can be distracting from primary
-                responsibilities and obligations, with MData’s BPA solutions,
-                businesses become more efficient and productive while work gets
-                more interesting for employees. The software simply automates
-                the tasks that are time-consuming.
+                Business process analysis (BPA) is a methodology to understand
+                the health of different operations within a business to improve
+                process efficiency. It’s a specialized method within the broader
+                context of business process management to analyze whether
+                current processes are meeting their goals.
+              </p>
+              <p>
+                We help organizations identify the detrimental elements in an
+                operation and also identify how to overcome obstacles. Without a
+                proper analysis, organizations waste a lot of time and effort
+                solving the wrong problems.
+              </p>
+              <p>
+                We collect data and make recommendations based only on the core
+                processes of an organization. We identify any problem or need in
+                an organization, which could involve financial controls, market
+                research, hiring practices, and cost cutting.
               </p>
             </div>
           </div>

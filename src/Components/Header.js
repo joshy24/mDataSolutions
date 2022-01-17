@@ -95,7 +95,7 @@ export const Header = () => {
                         <Link to="/grc">Governance Risk Compliance</Link>
                       </li>
                       <li>
-                        <Link to="/">Information Security</Link>
+                        <Link to="/information-security">Information Security</Link>
                       </li>
                       <li>
                         <Link to="/">Enterprise Risk Management</Link>

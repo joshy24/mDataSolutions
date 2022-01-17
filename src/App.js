@@ -26,6 +26,7 @@ import Contact from "./Pages/Contact";
 import Grc from "./Components/security/Grc";
 import { ErrorPage } from "./Components/ErrorPage";
 import InformationTechAudit from "./Components/security/InformationTechAudit";
+import InformationSecurity from "./Components/security/InformationSecurity";
 
 function App() {
   useEffect(() => {
@@ -68,6 +69,7 @@ function App() {
           <Route exact path="/information-tech-audit" element={<InformationTechAudit />} />
           <Route exact path="/services" element={<Service />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/information-security" element={<InformationSecurity />} />
 
           <Route exact path="*" element={<ErrorPage />} />
 

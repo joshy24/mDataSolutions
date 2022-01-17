@@ -68,7 +68,7 @@ const DocumentManagement = () => {
       <section className="section-padding single-portfolio-area">
         <div className="container">
           <div className="row">
-            <div className="col-lg-5">
+          <div class="col-lg-12">
               <div className="section-heading heading-left mb-0">
                 {/* <span className="subtitle">Software, Technology</span> */}
                 <h3 className="title">Document Management</h3>

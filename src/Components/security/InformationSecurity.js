@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import sal from "sal.js";
-import business from '../../images/business.png'
+import business from "../../images/business.png";
 
 const InformationSecurity = () => {
   useEffect(() => {
@@ -28,11 +28,7 @@ const InformationSecurity = () => {
                 data-sal-duration="1000"
                 data-sal-delay="400"
               >
-                <img
-                  class="paralax-image"
-                  src={business}
-                  alt="Illustration"
-                />
+                <img class="paralax-image" src={business} alt="Illustration" />
               </div>
             </div>
           </div>
@@ -68,17 +64,31 @@ const InformationSecurity = () => {
       <section class="section-padding single-portfolio-area">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-12">
               <div class="section-heading heading-left mb-0">
                 {/* <span class="subtitle">Software, Technology</span> */}
                 <h3 class="title">Information Security</h3>
               </div>
               <p>
-                Repetitive and boring tasks can be distracting from primary
-                responsibilities and obligations, with MData’s BPA solutions,
-                businesses become more efficient and productive while work gets
-                more interesting for employees. The software simply automates
-                the tasks that are time-consuming.
+                While paper-based businesses still exist, the ever-increasing
+                reliance on information systems has caused information security
+                to become a key consideration in cybersecurity risk management
+                and raise a need for dedicated IT security specialists.
+              </p>
+              <p>
+                MData Solution’s IT and security consulting services assist and
+                guide businesses in enabling a robust, over-arching security
+                infrastructure for their digital assets.
+              </p>
+              <p>
+                We have a structured risk management process that helps
+                organizations to review information, related assets and the
+                threats, vulnerability and impact of unauthorized access to the
+                organization’s digital assets. Our solutions help organizations
+                to make decisions about how to address or treat risks i.e avoid,
+                mitigate, share or access. We also help to monitor activities
+                and make adjustments to address new issues, changes and
+                improvements.
               </p>
             </div>
           </div>

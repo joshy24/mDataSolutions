@@ -18,7 +18,7 @@ const BusinessAutomation = () => {
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">Business Process Automation</h1>
+                <h1 class="title h2">Business Process Analysis</h1>
               </div>
             </div>
             <div class="col-lg-6">
@@ -67,7 +67,7 @@ const BusinessAutomation = () => {
             <div class="col-lg-12">
               <div class="section-heading heading-left mb-0">
                 {/* <span class="subtitle">Software, Technology</span> */}
-                <h3 class="title">Buisness Process Automation</h3>
+                <h3 class="title">Buisness Process Analysis</h3>
               </div>
               <p>
                 Business process analysis (BPA) is a methodology to understand

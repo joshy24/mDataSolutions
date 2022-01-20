@@ -18,7 +18,7 @@ const InformationTechAudit = () => {
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">Information Tech</h1>
+                <h1 class="title h2">Information Technology Audit</h1>
               </div>
             </div>
             <div class="col-lg-6">

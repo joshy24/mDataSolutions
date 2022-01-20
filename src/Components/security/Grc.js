@@ -18,7 +18,7 @@ const Grc = () => {
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">GOVERNANCE RISK COMPLIANCE</h1>
+                <h1 class="title h2">GOVERNANCE RISK COMPLIANCE (GRC)</h1>
               </div>
             </div>
             <div class="col-lg-6">
@@ -67,7 +67,7 @@ const Grc = () => {
           <div class="col-lg-12">
               <div class="section-heading heading-left mb-0">
                 {/* <span class="subtitle">Software, Technology</span> */}
-                <h3 class="title">GOVERNANCE RISK COMPLIANCE</h3>
+                <h3 class="title">GOVERNANCE RISK COMPLIANCE (GRC)</h3>
               </div>
               <p>
                 In today’s connected world Information Technology (IT) plays a
@@ -89,7 +89,7 @@ const Grc = () => {
             <div class="col-lg-8 offset-xl-1">
               <div className="faq-accordion">
                 <div className="accordion" id="accordion">
-                  <div className="accordion-item">
+                  {/* <div className="accordion-item">
                     <h6 className="accordion-header">
                       <button
                         className="accordion-button"
@@ -195,7 +195,7 @@ const Grc = () => {
                         </p>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="accordion-item">
                     <h6 className="accordion-header">
                       <button

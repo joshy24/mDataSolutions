@@ -9,7 +9,7 @@ const CallToAction = () => {
                 <div className="section-heading heading-light">
                     <span className="subtitle">Let's Work Together</span>
                     <h2 className="title">Need our professional help?</h2>
-                    <Link to="/contact" className="axil-btn btn-large btn-fill-white">Let's Talk </Link>
+                    <Link to="/contact" className="axil-btn btn-large btn-fill-white">Get Started</Link>
                 </div>
                 <div className="thumbnail">
                     <div className="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">

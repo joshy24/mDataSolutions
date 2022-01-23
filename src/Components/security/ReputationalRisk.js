@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import sal from "sal.js";
 import business from "../../images/business.png";
 
-const BusinessAutomation = () => {
+const ReputationalRisk = () => {
   useEffect(() => {
     sal();
   }, []);
@@ -18,7 +18,7 @@ const BusinessAutomation = () => {
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">Business Process Automation</h1>
+                <h1 class="title h2">REPUTATIONAL RISK MANAGEMENT</h1>
               </div>
             </div>
             <div class="col-lg-6">
@@ -66,14 +66,22 @@ const BusinessAutomation = () => {
           <div class="row">
             <div class="col-lg-12">
               <div class="section-heading heading-left mb-0">
-                <h3 class="title">Buisness Process Automation</h3>
+                {/* <span class="subtitle">Software, Technology</span> */}
+                <h3 class="title">REPUTATIONAL RISK MANAGEMENT</h3>
               </div>
               <p>
-                Repetitive and boring tasks can be distracting from primary
-                responsibilitieS and obligations, with MData's BPA solutions,
-                businesses become more efficient and productive while work gets
-                more interesting for employees. The software simply automates
-                the tasks that atre time-consuming.
+                Your corporate reputation is critical to the profitability of
+                your business. A damaged reputation will impact sales, your
+                ability to attract and retain top talent. Reputation is one of
+                the most important assets for companies today. Companies with a
+                strong reputation perform better, attract qualified employees
+                and increase their overall success. But as valuable as
+                reputation is for a company, it is also fragile: in the digital
+                age, one’s own missteps, inappropriate communication or targeted
+                attacks from outside can destroy a company’s reputation in a
+                very short time. MData’s reputation risk management services
+                helps to prevent these threats and minimize potential damage to
+                a company’s reputation.
               </p>
             </div>
           </div>
@@ -83,4 +91,4 @@ const BusinessAutomation = () => {
   );
 };
 
-export default BusinessAutomation;
+export default ReputationalRisk;

@@ -89,7 +89,7 @@ export const Header = () => {
                         <Link to="/information-tech-audit">Information Technology Audit</Link>
                       </li>
                       <li>
-                        <Link to="/buisness-process-automation">Business Process Analysis</Link>
+                        <Link to="/business-analysis">Business Process Analysis</Link>
                       </li>
                       <li>
                         <Link to="/grc">Governance Risk Compliance</Link>
@@ -97,12 +97,12 @@ export const Header = () => {
                       <li>
                         <Link to="/information-security">Information Security</Link>
                       </li>
-                      {/* <li>
-                        <Link to="/">Enterprise Risk Management</Link>
+                      <li>
+                        <Link to="/enterprise-risk">Enterprise Risk Management</Link>
                       </li>
                       <li>
-                        <Link to="/">Reputational Risk Management</Link>
-                      </li> */}
+                        <Link to="/reputational-risk">Reputational Risk Management</Link>
+                      </li>
                     </ul>
                   </li>
                   <li className="menu-item-has-children">
@@ -169,7 +169,7 @@ export const Header = () => {
               <ul className="list-unstyled">
                 <li className="header-btn">
                   <Link to="/contact" className="axil-btn btn-fill-white">
-                    Let's Talk
+                    Get Started
                   </Link>
                 </li>
                 <li className="mobile-menu-btn sidemenu-btn d-lg-none d-block">

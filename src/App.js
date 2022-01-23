@@ -27,6 +27,9 @@ import Grc from "./Components/security/Grc";
 import { ErrorPage } from "./Components/ErrorPage";
 import InformationTechAudit from "./Components/security/InformationTechAudit";
 import InformationSecurity from "./Components/security/InformationSecurity";
+import ReputationalRisk from "./Components/security/ReputationalRisk";
+import EnterpriseRisk from "./Components/security/EnterpriseRisk";
+import BusinessAnalysis from "./Components/security/BusinessAnalysis";
 
 function App() {
   useEffect(() => {
@@ -70,6 +73,11 @@ function App() {
           <Route exact path="/services" element={<Service />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/information-security" element={<InformationSecurity />} />
+          <Route exact path="/reputational-risk" element={<ReputationalRisk />} />
+          <Route exact path="/enterprise-risk" element={<EnterpriseRisk />} />
+          <Route exact path="/business-analysis" element={<BusinessAnalysis />} />
+
+
 
           <Route exact path="*" element={<ErrorPage />} />
 

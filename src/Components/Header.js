@@ -89,7 +89,7 @@ export const Header = () => {
                         <Link to="/information-tech-audit">Information Technology Audit</Link>
                       </li>
                       <li>
-                        <Link to="/business-analysis">Business Process Analysis</Link>
+                        <Link to="/business_analysis">Business Process Analysis</Link>
                       </li>
                       <li>
                         <Link to="/grc">Governance Risk Compliance</Link>

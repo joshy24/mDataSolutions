@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import sal from "sal.js";
 import business from "../../images/business.png";
 
@@ -88,6 +89,12 @@ const InformationTechAudit = () => {
                 exposing and repairing vulnerabilities before they can be
                 exploited by malicious actors.
               </p>
+            </div>
+            <div
+             className="header-btn">
+                  <Link to="/contact" className="axil-btn btn-fill-white">
+                    Get Started
+                  </Link>
             </div>
           </div>
         </div>

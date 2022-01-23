@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import business from "../../images/business.png";
 
 
@@ -78,6 +79,12 @@ const EnterpriseRisk = () => {
                 harm that may interfere with an organization's operations and
                 objectives and/or lead to losses.
               </p>
+            </div>
+            <div
+             className="header-btn">
+                  <Link to="/contact" className="axil-btn btn-fill-white">
+                    Get Started
+                  </Link>
             </div>
           </div>
         </div>

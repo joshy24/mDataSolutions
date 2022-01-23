@@ -75,7 +75,7 @@ function App() {
           <Route exact path="/information-security" element={<InformationSecurity />} />
           <Route exact path="/reputational-risk" element={<ReputationalRisk />} />
           <Route exact path="/enterprise-risk" element={<EnterpriseRisk />} />
-          <Route exact path="/business-analysis" element={<BusinessAnalysis />} />
+          <Route exact path="/business_analysis" element={<BusinessAnalysis />} />
 
 
 

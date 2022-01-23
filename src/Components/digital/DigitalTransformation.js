@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import sal from "sal.js";
-import digital from '../../images/digital.png'
+import digital from "../../images/digital.png";
 
 const DigitalTransformation = () => {
   useEffect(() => {
@@ -28,11 +29,7 @@ const DigitalTransformation = () => {
                 data-sal-duration="1000"
                 data-sal-delay="400"
               >
-                <img
-                  class="paralax-image"
-                  src={digital}
-                  alt="Illustration"
-                />
+                <img class="paralax-image" src={digital} alt="Illustration" />
               </div>
             </div>
           </div>
@@ -68,7 +65,7 @@ const DigitalTransformation = () => {
       <section class="section-padding single-portfolio-area">
         <div class="container">
           <div class="row">
-          <div class="col-lg-12">
+            <div class="col-lg-12">
               <div class="section-heading heading-left mb-0">
                 {/* <span class="subtitle">Software, Technology</span> */}
                 <h3 class="title">Digital Transformation</h3>
@@ -91,6 +88,11 @@ const DigitalTransformation = () => {
                 integrated platforms that contribute to the success of
                 organizations.
               </p>
+            </div>
+            <div className="header-btn">
+              <Link to="/contact" className="axil-btn btn-fill-white">
+                Get Started
+              </Link>
             </div>
           </div>
         </div>

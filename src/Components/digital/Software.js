@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import sal from "sal.js";
 import software from '../../images/software.png'
 
@@ -83,6 +84,12 @@ const Software = () => {
                 that our clients enjoy world-class solutions in the most cost
                 effective way.
               </p>
+            </div>
+            <div
+             className="header-btn">
+                  <Link to="/contact" className="axil-btn btn-fill-white">
+                    Get Started
+                  </Link>
             </div>
           </div>
         </div>

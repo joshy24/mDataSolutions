@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import sal from "sal.js";
 import digital from "../../images/digital.png";
 
@@ -85,9 +86,7 @@ const DocumentManagement = () => {
                 Hospitals, Newspapers, Magazines, NGOs, Schools, Government
                 Agencies, Churches, Insurance Companies etc.
               </p>
-            </div>
-            <div className="col-lg-5 mt-5" >
-              <p style={{marginTop: 30}}>
+              <p >
                 With the pervasiveness of digital technologies today,
                 institutions of all types are rushing to preserve their records
                 and collections via digitization. MDocScan offers a suite of
@@ -97,6 +96,12 @@ const DocumentManagement = () => {
                 expert consultants to deliver a solution that supports
                 international digitization standards and best local practices.
               </p>
+            </div>
+            <div
+             className="header-btn">
+                  <Link to="/contact" className="axil-btn btn-fill-white">
+                    Get Started
+                  </Link>
             </div>
           </div>
         </div>

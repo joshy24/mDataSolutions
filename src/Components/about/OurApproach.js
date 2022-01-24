@@ -8,28 +8,28 @@ const OurApproach = () => {
   }, []);
   return (
     <>
-      <div class="breadcrum-area breadcrumb-banner single-breadcrumb">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
+      <div className="breadcrum-area breadcrumb-banner single-breadcrumb">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
               <div
-                class="section-heading heading-left"
+                className="section-heading heading-left"
                 data-sal="slide-right"
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">Our Approach</h1>
+                <h1 className="title h2">Our Approach</h1>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div className="col-lg-6">
               <div
-                class="banner-thumbnail"
+                className="banner-thumbnail"
                 data-sal="slide-up"
                 data-sal-duration="1000"
                 data-sal-delay="400"
               >
                 <img
-                  class="paralax-image"
+                  className="paralax-image"
                   src={about2}
                   alt="Illustration"
                 />
@@ -37,9 +37,9 @@ const OurApproach = () => {
             </div>
           </div>
         </div>
-        <ul class="shape-group-8 list-unstyled">
+        <ul className="shape-group-8 list-unstyled">
           <li
-            class="shape shape-1"
+            className="shape shape-1"
             data-sal="slide-right"
             data-sal-duration="500"
             data-sal-delay="100"
@@ -47,7 +47,7 @@ const OurApproach = () => {
             <img src="assets/media/others/bubble-9.png" alt="Bubble"/>
           </li>
           <li
-            class="shape shape-2"
+            className="shape shape-2"
             data-sal="slide-left"
             data-sal-duration="500"
             data-sal-delay="200"
@@ -55,7 +55,7 @@ const OurApproach = () => {
             <img src="assets/media/others/bubble-20.png" alt="Bubble"/>
           </li>
           <li
-            class="shape shape-3"
+            className="shape shape-3"
             data-sal="slide-up"
             data-sal-duration="500"
             data-sal-delay="300"
@@ -65,13 +65,13 @@ const OurApproach = () => {
         </ul>
       </div>
 
-      <section class="section-padding single-portfolio-area">
-        <div class="container">
-          <div class="row">
-          <div class="col-lg-12">
-              <div class="section-heading heading-left mb-0">
-                {/* <span class="subtitle">Branding, Creative</span> */}
-                <h3 class="title">Our Approach</h3>
+      <section className="section-padding single-portfolio-area">
+        <div className="container">
+          <div className="row">
+          <div className="col-lg-12">
+              <div className="section-heading heading-left mb-0">
+                {/* <span className="subtitle">Branding, Creative</span> */}
+                <h3 className="title">Our Approach</h3>
               </div>
               <p>
                 Utilizing our high-impact 4-step approach as the framework for each client engagement ensures that we

@@ -10,30 +10,30 @@ function Risks(props) {
   return (
     <>
       <div className="sect" id="riskHome">
-        <div class="breadcrum-area breadcrumb-banner single-breadcrumb">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6">
+        <div className="breadcrum-area breadcrumb-banner single-breadcrumb">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6">
                 <div
-                  class="section-heading heading-left"
+                  className="section-heading heading-left"
                   data-sal="slide-right"
                   data-sal-duration="1000"
                   data-sal-delay="300"
                 >
-                  <h1 class="title h2">
+                  <h1 className="title h2">
                     RISK MANAGEMENT, SECURITY & COMPLIANCE
                   </h1>
                 </div>
               </div>
-              {/* <div class="col-lg-6">
+              {/* <div className="col-lg-6">
                 <div
-                  class="banner-thumbnail"
+                  className="banner-thumbnail"
                   data-sal="slide-up"
                   data-sal-duration="1000"
                   data-sal-delay="400"
                 >
                   <img
-                    class="paralax-image"
+                    className="paralax-image"
                     src="assets/media/project/project-2.png"
                     alt="Illustration"
                   />
@@ -41,9 +41,9 @@ function Risks(props) {
               </div> */}
             </div>
           </div>
-          <ul class="shape-group-8 list-unstyled">
+          <ul className="shape-group-8 list-unstyled">
             <li
-              class="shape shape-1"
+              className="shape shape-1"
               data-sal="slide-right"
               data-sal-duration="500"
               data-sal-delay="100"
@@ -51,7 +51,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-9.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-2"
+              className="shape shape-2"
               data-sal="slide-left"
               data-sal-duration="500"
               data-sal-delay="200"
@@ -59,7 +59,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-20.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-3"
+              className="shape shape-3"
               data-sal="slide-up"
               data-sal-duration="500"
               data-sal-delay="300"
@@ -69,10 +69,10 @@ function Risks(props) {
           </ul>
         </div>
 
-        <section class="section-padding single-portfolio-area">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-11 offset-xl-1">
+        <section className="section-padding single-portfolio-area">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-11 offset-xl-1">
                 <div className="faq-accordion">
                   <div className="accordion" id="accordion">
                     <RiskAccordion />
@@ -85,31 +85,31 @@ function Risks(props) {
       </div>
 
       <div className="sect d-none" id="cism-training-course">
-        <div class="breadcrum-area breadcrumb-banner single-breadcrumb">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6">
+        <div className="breadcrum-area breadcrumb-banner single-breadcrumb">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6">
                 <div
-                  class="section-heading heading-left"
+                  className="section-heading heading-left"
                   data-sal="slide-right"
                   data-sal-duration="1000"
                   data-sal-delay="300"
                 >
-                  <h1 class="title h2">
+                  <h1 className="title h2">
                     CISM- CERTIFIED INFORMATION SECURITY MANAGERCERTIFICATION
                     TRAINING COURSE
                   </h1>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div className="col-lg-6">
                 <div
-                  class="banner-thumbnail"
+                  className="banner-thumbnail"
                   data-sal="slide-up"
                   data-sal-duration="1000"
                   data-sal-delay="400"
                 >
                   <img
-                    class="paralax-image"
+                    className="paralax-image"
                     src="assets/media/project/project-2.png"
                     alt="Illustration"
                   />
@@ -117,9 +117,9 @@ function Risks(props) {
               </div>
             </div>
           </div>
-          <ul class="shape-group-8 list-unstyled">
+          <ul className="shape-group-8 list-unstyled">
             <li
-              class="shape shape-1"
+              className="shape shape-1"
               data-sal="slide-right"
               data-sal-duration="500"
               data-sal-delay="100"
@@ -127,7 +127,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-9.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-2"
+              className="shape shape-2"
               data-sal="slide-left"
               data-sal-duration="500"
               data-sal-delay="200"
@@ -135,7 +135,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-20.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-3"
+              className="shape shape-3"
               data-sal="slide-up"
               data-sal-duration="500"
               data-sal-delay="300"
@@ -145,9 +145,9 @@ function Risks(props) {
           </ul>
         </div>
 
-        <section class="section-padding single-portfolio-area">
-          <div class="container">
-            <div class="row">
+        <section className="section-padding single-portfolio-area">
+          <div className="container">
+            <div className="row">
               <div className="col-lg-12">
                 <p>
                   MDATA Solutions CISM course provides a common body of
@@ -163,7 +163,7 @@ function Risks(props) {
                   arise.
                 </p>
               </div>
-              <div class="col-lg-11 offset-xl-1">
+              <div className="col-lg-11 offset-xl-1">
                 <div className="faq-accordion">
                   <div className="accordion" id="accordion">
                     <RiskAccordion />
@@ -175,31 +175,31 @@ function Risks(props) {
         </section>
       </div>
       <div className="sect d-none" id="cisa-training-course">
-        <div class="breadcrum-area breadcrumb-banner single-breadcrumb">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6">
+        <div className="breadcrum-area breadcrumb-banner single-breadcrumb">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6">
                 <div
-                  class="section-heading heading-left"
+                  className="section-heading heading-left"
                   data-sal="slide-right"
                   data-sal-duration="1000"
                   data-sal-delay="300"
                 >
-                  <h1 class="title h2">
+                  <h1 className="title h2">
                     CISA- CERTIFIED INFORMATION SYSTEMS AUDITOR CERTIFICATION
                     TRAINING COURSE
                   </h1>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div className="col-lg-6">
                 <div
-                  class="banner-thumbnail"
+                  className="banner-thumbnail"
                   data-sal="slide-up"
                   data-sal-duration="1000"
                   data-sal-delay="400"
                 >
                   <img
-                    class="paralax-image"
+                    className="paralax-image"
                     src="assets/media/project/project-2.png"
                     alt="Illustration"
                   />
@@ -207,9 +207,9 @@ function Risks(props) {
               </div>
             </div>
           </div>
-          <ul class="shape-group-8 list-unstyled">
+          <ul className="shape-group-8 list-unstyled">
             <li
-              class="shape shape-1"
+              className="shape shape-1"
               data-sal="slide-right"
               data-sal-duration="500"
               data-sal-delay="100"
@@ -217,7 +217,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-9.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-2"
+              className="shape shape-2"
               data-sal="slide-left"
               data-sal-duration="500"
               data-sal-delay="200"
@@ -225,7 +225,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-20.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-3"
+              className="shape shape-3"
               data-sal="slide-up"
               data-sal-duration="500"
               data-sal-delay="300"
@@ -235,9 +235,9 @@ function Risks(props) {
           </ul>
         </div>
 
-        <section class="section-padding single-portfolio-area">
-          <div class="container">
-            <div class="row">
+        <section className="section-padding single-portfolio-area">
+          <div className="container">
+            <div className="row">
               <div className="col-lg-12">
                 <p>
                   An increasing number of businesses and organizations recognize
@@ -254,7 +254,7 @@ function Risks(props) {
                   professionals who want to become CISA certified.
                 </p>
               </div>
-              <div class="col-lg-11 offset-xl-1">
+              <div className="col-lg-11 offset-xl-1">
                 <div className="faq-accordion">
                   <div className="accordion" id="accordion">
                     <RiskAccordion />
@@ -266,30 +266,30 @@ function Risks(props) {
         </section>
       </div>
       <div className="sect d-none" id="social-engineering-deceptions-defenses">
-        <div class="breadcrum-area breadcrumb-banner single-breadcrumb">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6">
+        <div className="breadcrum-area breadcrumb-banner single-breadcrumb">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6">
                 <div
-                  class="section-heading heading-left"
+                  className="section-heading heading-left"
                   data-sal="slide-right"
                   data-sal-duration="1000"
                   data-sal-delay="300"
                 >
-                  <h1 class="title h2">
+                  <h1 className="title h2">
                     SOCIAL ENGINEERING DECEPTIONS AND DEFENSES
                   </h1>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div className="col-lg-6">
                 <div
-                  class="banner-thumbnail"
+                  className="banner-thumbnail"
                   data-sal="slide-up"
                   data-sal-duration="1000"
                   data-sal-delay="400"
                 >
                   <img
-                    class="paralax-image"
+                    className="paralax-image"
                     src="assets/media/project/project-2.png"
                     alt="Illustration"
                   />
@@ -297,9 +297,9 @@ function Risks(props) {
               </div>
             </div>
           </div>
-          <ul class="shape-group-8 list-unstyled">
+          <ul className="shape-group-8 list-unstyled">
             <li
-              class="shape shape-1"
+              className="shape shape-1"
               data-sal="slide-right"
               data-sal-duration="500"
               data-sal-delay="100"
@@ -307,7 +307,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-9.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-2"
+              className="shape shape-2"
               data-sal="slide-left"
               data-sal-duration="500"
               data-sal-delay="200"
@@ -315,7 +315,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-20.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-3"
+              className="shape shape-3"
               data-sal="slide-up"
               data-sal-duration="500"
               data-sal-delay="300"
@@ -325,9 +325,9 @@ function Risks(props) {
           </ul>
         </div>
 
-        <section class="section-padding single-portfolio-area">
-          <div class="container">
-            <div class="row">
+        <section className="section-padding single-portfolio-area">
+          <div className="container">
+            <div className="row">
               <div className="col-lg-12">
                 <p>
                   Social engineering has been considered the number one cyber
@@ -341,7 +341,7 @@ function Risks(props) {
                   organization and prevent data breaches.
                 </p>
               </div>
-              <div class="col-lg-11 offset-xl-1">
+              <div className="col-lg-11 offset-xl-1">
                 <div className="faq-accordion">
                   <div className="accordion" id="accordion">
                     <RiskAccordion />
@@ -353,30 +353,30 @@ function Risks(props) {
         </section>
       </div>
       <div className="sect d-none" id="cyber-security-risk-assessment">
-        <div class="breadcrum-area breadcrumb-banner single-breadcrumb">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6">
+        <div className="breadcrum-area breadcrumb-banner single-breadcrumb">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6">
                 <div
-                  class="section-heading heading-left"
+                  className="section-heading heading-left"
                   data-sal="slide-right"
                   data-sal-duration="1000"
                   data-sal-delay="300"
                 >
-                  <h1 class="title h2">
+                  <h1 className="title h2">
                     CYBER SECURITY RISK ASSESSMENT & MANAGEMENT
                   </h1>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div className="col-lg-6">
                 <div
-                  class="banner-thumbnail"
+                  className="banner-thumbnail"
                   data-sal="slide-up"
                   data-sal-duration="1000"
                   data-sal-delay="400"
                 >
                   <img
-                    class="paralax-image"
+                    className="paralax-image"
                     src="assets/media/project/project-2.png"
                     alt="Illustration"
                   />
@@ -384,9 +384,9 @@ function Risks(props) {
               </div>
             </div>
           </div>
-          <ul class="shape-group-8 list-unstyled">
+          <ul className="shape-group-8 list-unstyled">
             <li
-              class="shape shape-1"
+              className="shape shape-1"
               data-sal="slide-right"
               data-sal-duration="500"
               data-sal-delay="100"
@@ -394,7 +394,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-9.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-2"
+              className="shape shape-2"
               data-sal="slide-left"
               data-sal-duration="500"
               data-sal-delay="200"
@@ -402,7 +402,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-20.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-3"
+              className="shape shape-3"
               data-sal="slide-up"
               data-sal-duration="500"
               data-sal-delay="300"
@@ -412,9 +412,9 @@ function Risks(props) {
           </ul>
         </div>
 
-        <section class="section-padding single-portfolio-area">
-          <div class="container">
-            <div class="row">
+        <section className="section-padding single-portfolio-area">
+          <div className="container">
+            <div className="row">
               <div className="col-lg-12">
                 <p>
                   Laws and regulations impose stringent cyber security
@@ -425,7 +425,7 @@ function Risks(props) {
                   losses.
                 </p>
               </div>
-              <div class="col-lg-11 offset-xl-1">
+              <div className="col-lg-11 offset-xl-1">
                 <div className="faq-accordion">
                   <div className="accordion" id="accordion">
                     <RiskAccordion />
@@ -437,30 +437,30 @@ function Risks(props) {
         </section>
       </div>
       <div className="sect d-none" id="securing-web-applications">
-        <div class="breadcrum-area breadcrumb-banner single-breadcrumb">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6">
+        <div className="breadcrum-area breadcrumb-banner single-breadcrumb">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6">
                 <div
-                  class="section-heading heading-left"
+                  className="section-heading heading-left"
                   data-sal="slide-right"
                   data-sal-duration="1000"
                   data-sal-delay="300"
                 >
-                  <h1 class="title h2">
+                  <h1 className="title h2">
                     SECURING WEB APPLICATIONS, SERVICES AND SERVERS
                   </h1>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div className="col-lg-6">
                 <div
-                  class="banner-thumbnail"
+                  className="banner-thumbnail"
                   data-sal="slide-up"
                   data-sal-duration="1000"
                   data-sal-delay="400"
                 >
                   <img
-                    class="paralax-image"
+                    className="paralax-image"
                     src="assets/media/project/project-2.png"
                     alt="Illustration"
                   />
@@ -468,9 +468,9 @@ function Risks(props) {
               </div>
             </div>
           </div>
-          <ul class="shape-group-8 list-unstyled">
+          <ul className="shape-group-8 list-unstyled">
             <li
-              class="shape shape-1"
+              className="shape shape-1"
               data-sal="slide-right"
               data-sal-duration="500"
               data-sal-delay="100"
@@ -478,7 +478,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-9.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-2"
+              className="shape shape-2"
               data-sal="slide-left"
               data-sal-duration="500"
               data-sal-delay="200"
@@ -486,7 +486,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-20.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-3"
+              className="shape shape-3"
               data-sal="slide-up"
               data-sal-duration="500"
               data-sal-delay="300"
@@ -496,9 +496,9 @@ function Risks(props) {
           </ul>
         </div>
 
-        <section class="section-padding single-portfolio-area">
-          <div class="container">
-            <div class="row">
+        <section className="section-padding single-portfolio-area">
+          <div className="container">
+            <div className="row">
               <div className="col-lg-12">
                 <p>
                   Cyber security is a serious challenge today as attackers
@@ -509,7 +509,7 @@ function Risks(props) {
                   applications and host servers.
                 </p>
               </div>
-              <div class="col-lg-11 offset-xl-1">
+              <div className="col-lg-11 offset-xl-1">
                 <div className="faq-accordion">
                   <div className="accordion" id="accordion">
                     <RiskAccordion />
@@ -521,30 +521,30 @@ function Risks(props) {
         </section>
       </div>
       <div className="sect d-none" id="vulnerability-assessment">
-        <div class="breadcrum-area breadcrumb-banner single-breadcrumb">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6">
+        <div className="breadcrum-area breadcrumb-banner single-breadcrumb">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6">
                 <div
-                  class="section-heading heading-left"
+                  className="section-heading heading-left"
                   data-sal="slide-right"
                   data-sal-duration="1000"
                   data-sal-delay="300"
                 >
-                  <h1 class="title h2">
+                  <h1 className="title h2">
                     VULNERABILITY ASSESSMENT: PROTECTING YOUR ORGANIZATION
                   </h1>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div className="col-lg-6">
                 <div
-                  class="banner-thumbnail"
+                  className="banner-thumbnail"
                   data-sal="slide-up"
                   data-sal-duration="1000"
                   data-sal-delay="400"
                 >
                   <img
-                    class="paralax-image"
+                    className="paralax-image"
                     src="assets/media/project/project-2.png"
                     alt="Illustration"
                   />
@@ -552,9 +552,9 @@ function Risks(props) {
               </div>
             </div>
           </div>
-          <ul class="shape-group-8 list-unstyled">
+          <ul className="shape-group-8 list-unstyled">
             <li
-              class="shape shape-1"
+              className="shape shape-1"
               data-sal="slide-right"
               data-sal-duration="500"
               data-sal-delay="100"
@@ -562,7 +562,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-9.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-2"
+              className="shape shape-2"
               data-sal="slide-left"
               data-sal-duration="500"
               data-sal-delay="200"
@@ -570,7 +570,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-20.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-3"
+              className="shape shape-3"
               data-sal="slide-up"
               data-sal-duration="500"
               data-sal-delay="300"
@@ -580,9 +580,9 @@ function Risks(props) {
           </ul>
         </div>
 
-        <section class="section-padding single-portfolio-area">
-          <div class="container">
-            <div class="row">
+        <section className="section-padding single-portfolio-area">
+          <div className="container">
+            <div className="row">
               <div className="col-lg-12">
                 <p>
                   Knowledge of vulnerability assessment and hacking techniques
@@ -594,7 +594,7 @@ function Risks(props) {
                   minimize costly security breaches.
                 </p>
               </div>
-              <div class="col-lg-11 offset-xl-1">
+              <div className="col-lg-11 offset-xl-1">
                 <div className="faq-accordion">
                   <div className="accordion" id="accordion">
                     <RiskAccordion />
@@ -606,30 +606,30 @@ function Risks(props) {
         </section>
       </div>
       <div className="sect d-none" id="penetration-testing">
-        <div class="breadcrum-area breadcrumb-banner single-breadcrumb">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6">
+        <div className="breadcrum-area breadcrumb-banner single-breadcrumb">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6">
                 <div
-                  class="section-heading heading-left"
+                  className="section-heading heading-left"
                   data-sal="slide-right"
                   data-sal-duration="1000"
                   data-sal-delay="300"
                 >
-                  <h1 class="title h2">
+                  <h1 className="title h2">
                     PENETRATION TESTING: TOOLS AND TECHNIQUES
                   </h1>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div className="col-lg-6">
                 <div
-                  class="banner-thumbnail"
+                  className="banner-thumbnail"
                   data-sal="slide-up"
                   data-sal-duration="1000"
                   data-sal-delay="400"
                 >
                   <img
-                    class="paralax-image"
+                    className="paralax-image"
                     src="assets/media/project/project-2.png"
                     alt="Illustration"
                   />
@@ -637,9 +637,9 @@ function Risks(props) {
               </div>
             </div>
           </div>
-          <ul class="shape-group-8 list-unstyled">
+          <ul className="shape-group-8 list-unstyled">
             <li
-              class="shape shape-1"
+              className="shape shape-1"
               data-sal="slide-right"
               data-sal-duration="500"
               data-sal-delay="100"
@@ -647,7 +647,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-9.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-2"
+              className="shape shape-2"
               data-sal="slide-left"
               data-sal-duration="500"
               data-sal-delay="200"
@@ -655,7 +655,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-20.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-3"
+              className="shape shape-3"
               data-sal="slide-up"
               data-sal-duration="500"
               data-sal-delay="300"
@@ -665,9 +665,9 @@ function Risks(props) {
           </ul>
         </div>
 
-        <section class="section-padding single-portfolio-area">
-          <div class="container">
-            <div class="row">
+        <section className="section-padding single-portfolio-area">
+          <div className="container">
+            <div className="row">
               <div className="col-lg-12">
                 <p>
                   As network breaches become increasingly sophisticated,
@@ -678,7 +678,7 @@ function Risks(props) {
                   You learn countermeasures to reduce risk to your enterprise.
                 </p>
               </div>
-              <div class="col-lg-11 offset-xl-1">
+              <div className="col-lg-11 offset-xl-1">
                 <div className="faq-accordion">
                   <div className="accordion" id="accordion">
                     <RiskAccordion />
@@ -690,31 +690,31 @@ function Risks(props) {
         </section>
       </div>
       <div className="sect d-none" id="cap-certification-course">
-        <div class="breadcrum-area breadcrumb-banner single-breadcrumb">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-6">
+        <div className="breadcrum-area breadcrumb-banner single-breadcrumb">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6">
                 <div
-                  class="section-heading heading-left"
+                  className="section-heading heading-left"
                   data-sal="slide-right"
                   data-sal-duration="1000"
                   data-sal-delay="300"
                 >
-                  <h1 class="title h2">
+                  <h1 className="title h2">
                     CERTIFIED AUTHORIZATION PROFESSIONAL (CAP®) CERTIFICATION
                     COURSE
                   </h1>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div className="col-lg-6">
                 <div
-                  class="banner-thumbnail"
+                  className="banner-thumbnail"
                   data-sal="slide-up"
                   data-sal-duration="1000"
                   data-sal-delay="400"
                 >
                   <img
-                    class="paralax-image"
+                    className="paralax-image"
                     src="assets/media/project/project-2.png"
                     alt="Illustration"
                   />
@@ -722,9 +722,9 @@ function Risks(props) {
               </div>
             </div>
           </div>
-          <ul class="shape-group-8 list-unstyled">
+          <ul className="shape-group-8 list-unstyled">
             <li
-              class="shape shape-1"
+              className="shape shape-1"
               data-sal="slide-right"
               data-sal-duration="500"
               data-sal-delay="100"
@@ -732,7 +732,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-9.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-2"
+              className="shape shape-2"
               data-sal="slide-left"
               data-sal-duration="500"
               data-sal-delay="200"
@@ -740,7 +740,7 @@ function Risks(props) {
               <img src="assets/media/others/bubble-20.png" alt="Bubble" />
             </li>
             <li
-              class="shape shape-3"
+              className="shape shape-3"
               data-sal="slide-up"
               data-sal-duration="500"
               data-sal-delay="300"
@@ -750,9 +750,9 @@ function Risks(props) {
           </ul>
         </div>
 
-        <section class="section-padding single-portfolio-area">
-          <div class="container">
-            <div class="row">
+        <section className="section-padding single-portfolio-area">
+          <div className="container">
+            <div className="row">
               <div className="col-lg-12">
                 <p>
                   The CAP® (Certified Authorization Professional) certification
@@ -771,7 +771,7 @@ function Risks(props) {
                   strategic and tactical risk across an enterprise.
                 </p>
               </div>
-              <div class="col-lg-11 offset-xl-1">
+              <div className="col-lg-11 offset-xl-1">
                 <div className="faq-accordion">
                   <div className="accordion" id="accordion">
                     <RiskAccordion />

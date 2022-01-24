@@ -13,6 +13,7 @@
                 this._body = $('body'),
                 this._html = $('html')
         },
+        
 
         methods: function(e) {
             axilInit.w();
@@ -116,10 +117,12 @@
         mobileMenuActivation: function(e) {
             
             $('.menu-item-has-children > a').on('click', function(e) {
+                console.log('Clicking');
                 
                 var targetParent = $(this).parents('.mainmenu-nav'),
                     target = $(this).siblings('.axil-submenu'),
                     targetSiblings = $(this).parent('.menu-item-has-children').siblings().find('.axil-submenu');
+                    console.log(targetParent)
                 
                 if (targetParent.hasClass('offcanvas')) {
                     $(target).slideToggle(400);

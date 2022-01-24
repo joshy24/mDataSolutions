@@ -1,7 +1,52 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import $ from "jquery";
 
 export const Header = () => {
+  useEffect(() => {
+    $(".menu-item-has-children > a").on("click", function (e) {
+
+      var targetParent = $(this).parents(".mainmenu-nav"),
+        target = $(this).siblings(".axil-submenu"),
+        targetSiblings = $(this)
+          .parent(".menu-item-has-children")
+          .siblings()
+          .find(".axil-submenu");
+
+      if (targetParent.hasClass("offcanvas")) {
+        $(target).slideToggle(400);
+        $(targetSiblings).slideUp(400);
+        $(this).parent(".menu-item-has-children").toggleClass("open");
+        $(this)
+          .parent(".menu-item-has-children")
+          .siblings()
+          .removeClass("open");
+      }
+    });
+
+    function resizeClassAdd() {
+      if (window.matchMedia("(min-width: 992px)").matches) {
+        $("body").removeClass("mobilemenu-active");
+        $("#mobilemenu-popup")
+          .removeClass("offcanvas show")
+          .removeAttr("style");
+        $(".axil-mainmenu .offcanvas-backdrop").remove();
+        $(".axil-submenu").removeAttr("style");
+      } else {
+        $("body").addClass("mobilemenu-active");
+        $("#mobilemenu-popup").addClass("offcanvas");
+        $(".menu-item-has-children > a").on("click", function (e) {
+          e.preventDefault();
+        });
+      }
+    }
+
+    $(window).on("resize", function () {
+      resizeClassAdd();
+    });
+
+    resizeClassAdd();
+  });
   return (
     <header className="header axil-header header-style-4">
       <div id="axil-sticky-placeholder"></div>
@@ -52,7 +97,11 @@ export const Header = () => {
                     </Link>
                   </li>
                   <li className="menu-item-has-children">
-                  <a href="javascript:void(0);" style={{ color: "#828282" }}>
+                    <a
+                      className="menu-item-has-children-link"
+                      href="javascript:void(0);"
+                      style={{ color: "#828282" }}
+                    >
                       Technology
                     </a>
                     <ul className="axil-submenu">
@@ -62,9 +111,7 @@ export const Header = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/MDocScan">
-                        MDocScan
-                        </Link>
+                        <Link to="/MDocScan">MDocScan</Link>
                       </li>
                       <li>
                         <Link to="/buisness-process-automation">
@@ -80,46 +127,69 @@ export const Header = () => {
                   </li>
 
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);" style={{ color: "#828282" }}>
+                    <a
+                      className="menu-item-has-children-link"
+                      href="javascript:void(0);"
+                      style={{ color: "#828282" }}
+                    >
                       Security & Risk
                     </a>
                     <ul className="axil-submenu">
-                     
                       <li>
-                        <Link to="/information-tech-audit">Information Technology Audit</Link>
+                        <Link to="/information-tech-audit">
+                          Information Technology Audit
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/business_analysis">Business Process Analysis</Link>
+                        <Link to="/business_analysis">
+                          Business Process Analysis
+                        </Link>
                       </li>
                       <li>
                         <Link to="/grc">Governance Risk Compliance</Link>
                       </li>
                       <li>
-                        <Link to="/information-security">Information Security</Link>
+                        <Link to="/information-security">
+                          Information Security
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/enterprise-risk">Enterprise Risk Management</Link>
+                        <Link to="/enterprise-risk">
+                          Enterprise Risk Management
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/reputational-risk">Reputational Risk Management</Link>
+                        <Link to="/reputational-risk">
+                          Reputational Risk Management
+                        </Link>
                       </li>
                     </ul>
                   </li>
+
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);" style={{ color: "#828282" }}>
+                    <a
+                      className="menu-item-has-children-link"
+                      href="javascript:void(0);"
+                      style={{ color: "#828282" }}
+                    >
                       Training
                     </a>
                     <ul className="axil-submenu">
                       <li>
-                        <Link to="/certification-offerings">Certification Offerings</Link>
+                        <Link to="/certification-offerings">
+                          Certification Offerings
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/ProjectManagement">Project Management Offerings</Link>
+                        <Link to="/ProjectManagement">
+                          Project Management Offerings
+                        </Link>
                       </li>
 
-                      
                       <li>
-                        <Link to="/business-analysis">Business Analysis, Training & Development</Link>
+                        <Link to="/business-analysis">
+                          Business Analysis, Training & Development
+                        </Link>
                       </li>
                       <li>
                         <Link to="/risk-management">Risk Management</Link>
@@ -131,12 +201,19 @@ export const Header = () => {
                         <Link to="/leadership">Leadership & Soft Skills</Link>
                       </li>
                       <li>
-                        <Link to="/cyber-security">Cyber Security Awareness Training</Link>
+                        <Link to="/cyber-security">
+                          Cyber Security Awareness Training
+                        </Link>
                       </li>
                     </ul>
                   </li>
+
                   <li className="menu-item-has-children">
-                    <a href="javascript:void(0);" style={{ color: "#828282" }}>
+                    <a
+                      className="menu-item-has-children-link"
+                      href="javascript:void(0);"
+                      style={{ color: "#828282" }}
+                    >
                       About Us
                     </a>
                     <ul className="axil-submenu">

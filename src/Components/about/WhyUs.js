@@ -8,28 +8,28 @@ const WhyUs = () => {
   }, []);
   return (
     <>
-      <div class="breadcrum-area breadcrumb-banner single-breadcrumb">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
+      <div className="breadcrum-area breadcrumb-banner single-breadcrumb">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
               <div
-                class="section-heading heading-left"
+                className="section-heading heading-left"
                 data-sal="slide-right"
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">Why US</h1>
+                <h1 className="title h2">Why US</h1>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div className="col-lg-6">
               <div
-                class="banner-thumbnail"
+                className="banner-thumbnail"
                 data-sal="slide-up"
                 data-sal-duration="1000"
                 data-sal-delay="400"
               >
                 <img
-                  class="paralax-image"
+                  className="paralax-image"
                   src={about1}
                   alt="Illustration"
                 />
@@ -37,9 +37,9 @@ const WhyUs = () => {
             </div>
           </div>
         </div>
-        <ul class="shape-group-8 list-unstyled">
+        <ul className="shape-group-8 list-unstyled">
           <li
-            class="shape shape-1"
+            className="shape shape-1"
             data-sal="slide-right"
             data-sal-duration="500"
             data-sal-delay="100"
@@ -47,7 +47,7 @@ const WhyUs = () => {
             <img src="assets/media/others/bubble-9.png" alt="Bubble" />
           </li>
           <li
-            class="shape shape-2"
+            className="shape shape-2"
             data-sal="slide-left"
             data-sal-duration="500"
             data-sal-delay="200"
@@ -55,7 +55,7 @@ const WhyUs = () => {
             <img src="assets/media/others/bubble-20.png" alt="Bubble" />
           </li>
           <li
-            class="shape shape-3"
+            className="shape shape-3"
             data-sal="slide-up"
             data-sal-duration="500"
             data-sal-delay="300"
@@ -65,10 +65,10 @@ const WhyUs = () => {
         </ul>
       </div>
 
-      <section class="section section-padding bg-color-dark pb--80 pb_lg--40 pb_md--20">
-        <div class="container">
+      <section className="section section-padding bg-color-dark pb--80 pb_lg--40 pb_md--20">
+        <div className="container">
           <div className="row">
-          <div class="col-lg-12">
+          <div className="col-lg-12">
               <div className="about-quality active">
                 <h3 className="sl-number">1</h3>
                 <h5 className="title">WHY CHOOSE MDATA FOR YOUR PMP® CERTIFICATION TRAINING?</h5>
@@ -93,7 +93,7 @@ const WhyUs = () => {
               <div className="about-quality">
                 <h3 className="sl-number">4</h3>
                 <h5 className="title">PMP® REQUIREMENTS</h5>
-                <p>As you know PMP® exam requires you to have stringent experiential and educational requirements. The certification is designed to validate your accomplishments. Hence, our training is designed around your commitment, your schedule, and we respect your experience in the class. You will be delighted with the level of knowledge, experience, education and commitment of our instructors. For a complete list of requirements visit PMI.org.</p>
+                <p>As you know PMP® exam requires you to have stringent experiential and educational requirements. The certification is designed to validate your accomplishments. Hence, our training is designed around your commitment, your schedule, and we respect your experience in the className. You will be delighted with the level of knowledge, experience, education and commitment of our instructors. For a complete list of requirements visit PMI.org.</p>
               </div>
             </div>
             <div className="col-lg-4">

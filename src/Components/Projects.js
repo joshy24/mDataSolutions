@@ -18,7 +18,7 @@ const Projects = () => {
             </h2>
           </div>
           <div className="axil-isotope-wrapper" style={{ marginBottom: 30 }}>
-            <div className="row row-35 ">
+            <div className="row d-flex justify-content-center row-35 ">
               
               <div
                 className="col-md-6 project branding"

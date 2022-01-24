@@ -22,7 +22,7 @@ export default function Service() {
           >
             <div className="services-grid service-style-2">
               <div className="thumbnail">
-                <img src={digital} alt="icon" style={{ height: 100 }} />
+                <img src={digital} alt="icon" style={{ height: 70 }} />
               </div>
               <div className="content">
                 <h5 className="title">
@@ -48,7 +48,7 @@ export default function Service() {
           >
             <div className="services-grid service-style-2 active">
               <div className="thumbnail">
-                <img src={project} alt="icon" style={{ height: 100 }} />
+                <img src={project} alt="icon" style={{ height: 70 }} />
               </div>
               <div className="content">
                 <h5 className="title">
@@ -73,7 +73,7 @@ export default function Service() {
           >
             <div className="services-grid service-style-2">
               <div className="thumbnail">
-                <img src={training} alt="icon" style={{ height: 100 }} />
+                <img src={training} alt="icon" style={{ height: 70 }} />
               </div>
               <div className="content">
                 <h5 className="title">

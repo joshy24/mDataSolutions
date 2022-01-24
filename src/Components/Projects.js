@@ -18,14 +18,15 @@ const Projects = () => {
             </h2>
           </div>
           <div className="axil-isotope-wrapper" style={{ marginBottom: 30 }}>
-            <div className="row row-35 isotope-list">
+            <div className="row row-35 ">
+              
               <div
                 className="col-md-6 project branding"
                 style={{
-                  height: 150,
+                  height: 200,
                   width: 300,
                   marginTop: 30,
-                  marginBottom: 30,
+                  marginBottom: 60,
                 }}
               >
                 <div className="project-grid">
@@ -50,71 +51,78 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              <div
-                className="col-md-6 project mobile"
-                style={{
-                  height: 200,
-                  width: 300,
-                  marginTop: 30,
-                  marginBottom: 30,
-                }}
-              >
-                <div className="project-grid">
-                  <div className="thumbnail">
-                    <Link to="/">
-                      <img src={tele} alt="project" />
-                    </Link>
-                  </div>
-                  <div className="content">
-                    <Link to="/" style={{ marginLeft: -35 }}>
-                      <p
-                        className="title"
-                        style={{ fontSize: "1.5em", color: "black" }}
-                      >
-                        Telecommunications
-                      </p>
-                    </Link>
-                    {/* <span className="subtitle">Logo, Website & Mobile App</span> */}
-                  </div>
-                </div>
-              </div>
+
               <div
                 className="col-md-6 project branding"
                 style={{
                   height: 200,
                   width: 300,
                   marginTop: 30,
-                  marginBottom: 30,
+                  marginBottom: 60,
                 }}
               >
                 <div className="project-grid">
                   <div className="thumbnail">
                     <Link to="/">
-                      <img src={bank} alt="project" />
+                      <img
+                        src={tele}
+                        alt="project"
+                        style={{ height: 150, width: 285 }}
+                      />
                     </Link>
                   </div>
                   <div className="content">
-                    <Link to="/" className="text-center">
+                    <Link to="/">
                       <p
                         className="title"
-                        style={{ fontSize: "1.5em", color: "black" }}
+                        style={{ fontSize: "1.5em", color: "black", textAlign: "center" }}
                       >
-                        Banking
+                        Telecommunication
                       </p>
                     </Link>
-
-                    {/* <span className="subtitle">Website, UI/UX</span> */}
                   </div>
                 </div>
               </div>
-              <br />
+
               <div
-                className="col-md-6 project mobile"
+                className="col-md-6 project branding"
                 style={{
                   height: 200,
                   width: 300,
                   marginTop: 30,
-                  marginBottom: 30,
+                  marginBottom: 60,
+                }}
+              >
+                <div className="project-grid">
+                  <div className="thumbnail">
+                    <Link to="/">
+                      <img
+                        src={bank}
+                        alt="project"
+                        style={{ height: 150, width: 285 }}
+                      />
+                    </Link>
+                  </div>
+                  <div className="content">
+                    <Link to="/">
+                      <p
+                        className="title"
+                        style={{ fontSize: "1.5em", color: "black", textAlign: "center" }}
+                      >
+                        Banking
+                      </p>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-md-6 project branding"
+                style={{
+                  height: 200,
+                  width: 300,
+                  marginTop: 30,
+                  marginBottom: 60,
                 }}
               >
                 <div className="project-grid">
@@ -130,7 +138,7 @@ const Projects = () => {
                   <div className="content">
                     <Link to="/">
                       <p
-                        className="title"
+                        className="title d-flex justify-content-center"
                         style={{ fontSize: "1.5em", color: "black" }}
                       >
                         Government
@@ -139,6 +147,8 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
+
+              
             </div>
           </div>
         </div>

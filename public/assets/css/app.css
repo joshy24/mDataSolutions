@@ -190,7 +190,7 @@ ul.list-style li::marker,
 }
 
 @media only screen and (min-width: 1400px) {
-    .row-35 {
+    /* .row-35 {
         margin-left: -35px;
         margin-right: -35px;
     }
@@ -198,7 +198,7 @@ ul.list-style li::marker,
     .row-35 > [class*="col"] {
         padding-left: 35px;
         padding-right: 35px;
-    }
+    } */
 
     .row-40 {
         margin-left: -40px;

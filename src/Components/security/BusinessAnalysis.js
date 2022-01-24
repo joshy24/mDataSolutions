@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import sal from "sal.js";
 import business from "../../images/business.png";
 
-const Grc = () => {
+const BusinessAnalysis = () => {
   useEffect(() => {
     sal();
   }, []);
@@ -19,7 +19,7 @@ const Grc = () => {
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">GOVERNANCE RISK COMPLIANCE (GRC)</h1>
+                <h1 class="title h2">Business Process Automation</h1>
               </div>
             </div>
             <div class="col-lg-6">
@@ -65,24 +65,29 @@ const Grc = () => {
       <section class="section-padding single-portfolio-area">
         <div class="container">
           <div class="row">
-          <div class="col-lg-12">
+            <div class="col-lg-12">
               <div class="section-heading heading-left mb-0">
                 {/* <span class="subtitle">Software, Technology</span> */}
-                <h3 class="title">GOVERNANCE RISK COMPLIANCE (GRC)</h3>
+                <h3 class="title">Buisness Process Automation</h3>
               </div>
               <p>
-                In today’s connected world Information Technology (IT) plays a
-                major role within all organizations; be it a manufacturing
-                company or a service organization or a Bank. Most organizations
-                invest in IT and setup a function to manage the IT
-                infrastructure and services; they call it the 'IT Department'!
+                Business process analysis (BPA) is a methodology to understand
+                the health of different operations within a business to improve
+                process efficiency. It’s a specialized method within the broader
+                context of business process management to analyze whether
+                current processes are meeting their goals.
               </p>
               <p>
-                IThe IT Governance System that we have designed offers best of
-                the global practices in IT Service Management, Information
-                Security, IT Service Continuity, etc. Our IT Governance system
-                has adopted processes offered by global frameworks and standards
-                like CMMI, COBIT, ITIL, ISO 20000-1, ISO 270001 and ISO 22301.
+                We help organizations identify the detrimental elements in an
+                operation and also identify how to overcome obstacles. Without a
+                proper analysis, organizations waste a lot of time and effort
+                solving the wrong problems.
+              </p>
+              <p>
+                We collect data and make recommendations based only on the core
+                processes of an organization. We identify any problem or need in
+                an organization, which could involve financial controls, market
+                research, hiring practices, and cost cutting.
               </p>
             </div>
             <div
@@ -98,4 +103,4 @@ const Grc = () => {
   );
 };
 
-export default Grc;
+export default BusinessAnalysis;

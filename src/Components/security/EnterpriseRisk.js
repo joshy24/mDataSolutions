@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import sal from "sal.js";
 import business from "../../images/business.png";
 
-const Grc = () => {
+const EnterpriseRisk = () => {
   useEffect(() => {
     sal();
   }, []);
@@ -19,7 +19,7 @@ const Grc = () => {
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">GOVERNANCE RISK COMPLIANCE (GRC)</h1>
+                <h1 class="title h2">ENTERPRISE RISK MANAGEMENT</h1>
               </div>
             </div>
             <div class="col-lg-6">
@@ -65,24 +65,23 @@ const Grc = () => {
       <section class="section-padding single-portfolio-area">
         <div class="container">
           <div class="row">
-          <div class="col-lg-12">
+            <div class="col-lg-12">
               <div class="section-heading heading-left mb-0">
                 {/* <span class="subtitle">Software, Technology</span> */}
-                <h3 class="title">GOVERNANCE RISK COMPLIANCE (GRC)</h3>
+                <h3 class="title">ENTERPRISE RISK MANAGEMENT</h3>
               </div>
               <p>
-                In today’s connected world Information Technology (IT) plays a
-                major role within all organizations; be it a manufacturing
-                company or a service organization or a Bank. Most organizations
-                invest in IT and setup a function to manage the IT
-                infrastructure and services; they call it the 'IT Department'!
-              </p>
-              <p>
-                IThe IT Governance System that we have designed offers best of
-                the global practices in IT Service Management, Information
-                Security, IT Service Continuity, etc. Our IT Governance system
-                has adopted processes offered by global frameworks and standards
-                like CMMI, COBIT, ITIL, ISO 20000-1, ISO 270001 and ISO 22301.
+              Several factors are contributing to the demand for ERM, such as
+                increased speed of change, growing market volatility and
+                complexity, higher expectations from investors etc. Our
+                enterprise risk management service delivers visibility and
+                control of your organisation’s risks. It helps you make informed
+                decisions on threats and opportunities while improving business
+                resilience and performance. At MData, we employ a top-down
+                strategy that aims to identify, assess, and prepare for
+                potential losses, dangers, hazards, and other potentials for
+                harm that may interfere with an organization's operations and
+                objectives and/or lead to losses.
               </p>
             </div>
             <div
@@ -98,4 +97,4 @@ const Grc = () => {
   );
 };
 
-export default Grc;
+export default EnterpriseRisk;

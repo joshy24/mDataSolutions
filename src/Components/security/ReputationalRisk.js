@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import sal from "sal.js";
 import business from "../../images/business.png";
 
-const Grc = () => {
+const ReputationalRisk = () => {
   useEffect(() => {
     sal();
   }, []);
@@ -19,7 +19,7 @@ const Grc = () => {
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">GOVERNANCE RISK COMPLIANCE (GRC)</h1>
+                <h1 class="title h2">REPUTATIONAL RISK MANAGEMENT</h1>
               </div>
             </div>
             <div class="col-lg-6">
@@ -65,24 +65,24 @@ const Grc = () => {
       <section class="section-padding single-portfolio-area">
         <div class="container">
           <div class="row">
-          <div class="col-lg-12">
+            <div class="col-lg-12">
               <div class="section-heading heading-left mb-0">
                 {/* <span class="subtitle">Software, Technology</span> */}
-                <h3 class="title">GOVERNANCE RISK COMPLIANCE (GRC)</h3>
+                <h3 class="title">REPUTATIONAL RISK MANAGEMENT</h3>
               </div>
               <p>
-                In today’s connected world Information Technology (IT) plays a
-                major role within all organizations; be it a manufacturing
-                company or a service organization or a Bank. Most organizations
-                invest in IT and setup a function to manage the IT
-                infrastructure and services; they call it the 'IT Department'!
-              </p>
-              <p>
-                IThe IT Governance System that we have designed offers best of
-                the global practices in IT Service Management, Information
-                Security, IT Service Continuity, etc. Our IT Governance system
-                has adopted processes offered by global frameworks and standards
-                like CMMI, COBIT, ITIL, ISO 20000-1, ISO 270001 and ISO 22301.
+                Your corporate reputation is critical to the profitability of
+                your business. A damaged reputation will impact sales, your
+                ability to attract and retain top talent. Reputation is one of
+                the most important assets for companies today. Companies with a
+                strong reputation perform better, attract qualified employees
+                and increase their overall success. But as valuable as
+                reputation is for a company, it is also fragile: in the digital
+                age, one’s own missteps, inappropriate communication or targeted
+                attacks from outside can destroy a company’s reputation in a
+                very short time. MData’s reputation risk management services
+                helps to prevent these threats and minimize potential damage to
+                a company’s reputation.
               </p>
             </div>
             <div
@@ -98,4 +98,4 @@ const Grc = () => {
   );
 };
 
-export default Grc;
+export default ReputationalRisk;

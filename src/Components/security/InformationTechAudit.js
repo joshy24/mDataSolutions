@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import sal from "sal.js";
 import business from "../../images/business.png";
 
@@ -18,7 +19,7 @@ const InformationTechAudit = () => {
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 class="title h2">Information Tech</h1>
+                <h1 class="title h2">Information Technology Audit</h1>
               </div>
             </div>
             <div class="col-lg-6">
@@ -64,7 +65,7 @@ const InformationTechAudit = () => {
       <section class="section-padding single-portfolio-area">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5">
+          <div class="col-lg-12">
               <div class="section-heading heading-left mb-0">
                 {/* <span class="subtitle">Software, Technology</span> */}
                 <h3 class="title">Information Technology Audit</h3>
@@ -88,6 +89,12 @@ const InformationTechAudit = () => {
                 exposing and repairing vulnerabilities before they can be
                 exploited by malicious actors.
               </p>
+            </div>
+            <div
+             className="header-btn">
+                  <Link to="/contact" className="axil-btn btn-fill-white">
+                    Get Started
+                  </Link>
             </div>
           </div>
         </div>

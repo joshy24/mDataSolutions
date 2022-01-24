@@ -68,7 +68,7 @@ const WhyUs = () => {
       <section class="section section-padding bg-color-dark pb--80 pb_lg--40 pb_md--20">
         <div class="container">
           <div className="row">
-            <div className="col-lg-8">
+          <div class="col-lg-12">
               <div className="about-quality active">
                 <h3 className="sl-number">1</h3>
                 <h5 className="title">WHY CHOOSE MDATA FOR YOUR PMP® CERTIFICATION TRAINING?</h5>

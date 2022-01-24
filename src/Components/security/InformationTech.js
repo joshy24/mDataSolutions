@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import sal from "sal.js";
 import business from '../../images/business.png'
 
@@ -68,7 +69,7 @@ const InformationTech = () => {
       <section class="section-padding single-portfolio-area">
         <div class="container">
           <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-12">
               <div class="section-heading heading-left mb-0">
                 {/* <span class="subtitle">Software, Technology</span> */}
                 <h3 class="title">Informationw Tech</h3>
@@ -80,6 +81,12 @@ const InformationTech = () => {
                 more interesting for employees. The software simply automates
                 the tasks that are time-consuming.
               </p>
+            </div>
+            <div
+             className="header-btn">
+                  <Link to="/contact" className="axil-btn btn-fill-white">
+                    Get Started
+                  </Link>
             </div>
           </div>
         </div>

@@ -63,14 +63,14 @@ STYLESHEET INDEXING
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 :root {
-    --color-primary: #5956E9;
+    --color-primary: #177dae;
     --color-white: #ffffff;
     --color-black: #000000;
     --color-light: #ECF2F6;
     --color-dark: #27272E;
     --color-text-dark: #292930;
     --color-accent1: #FFDC60;
-    --color-accent2: #FAB8C4;
+    --color-accent2: #ea9c49;
     --color-blue-shade: #6865FF;
     --color-link: #2522BA;
     --color-mabel: #DBF8FF;
@@ -89,7 +89,7 @@ STYLESHEET INDEXING
     --color-ghost: #C7C7D5;
     --color-mercury: #E5E5E5;
     --gradient-primary: linear-gradient(90deg, #ECF2F6 0%, rgba(236, 242, 246, 0) 70.31%);
-    --gradient-blue: linear-gradient(145.92deg, #5956E9 20.18%, #9991FF 76.9%);
+    --gradient-blue: linear-gradient(145.92deg, #177dae 20.18%, #9991FF 76.9%);
     --gradient-accent: linear-gradient(180deg, #FAB8C4 0%, #FFEDF0 100%);
     --gradient-white: linear-gradient(266.3deg, rgba(236, 242, 246, 0) 7.84%, #ECF2F6 29.1%, rgba(236, 242, 246, 0) 64.32%);
     --gradient-dark: linear-gradient(180deg, #27272E 0%, #303035 100%);
@@ -123,6 +123,7 @@ a {
     text-decoration: none;
     -webkit-transition: var(--transition);
     transition: var(--transition);
+    color: #177dae;
 }
 
 span {
@@ -1204,7 +1205,7 @@ Pagination
 }
 
 .section-heading .subtitle {
-    color: var(--color-rose);
+    color: var(--color-primary);
     font-weight: 500;
     font-size: 20px;
     font-family: var(--font-primary);
@@ -2396,7 +2397,7 @@ Pagination
     position: fixed;
     top: 200px;
     left: 0;
-    background-color: var(--color-primary);
+    background-color: var(--color-accent2);
     border-radius: 0 30px 30px 0;
     padding: 10px;
     z-index: 5;
@@ -2833,13 +2834,14 @@ Pagination
 }
 
 .banner .banner-content .axil-btn {
-    padding: 28px 45px;
-    box-shadow: 0 44px 84px -24px #5956e9;
+    padding: 18px 45px;
+    box-shadow: 0 44px 84px -24px #177dae;
+    color: #177dae;
 }
 
 @media only screen and (max-width: 991px) {
     .banner .banner-content .axil-btn {
-        padding: 20px 35px;
+        padding: 18px 35px;
     }
 }
 
@@ -3377,37 +3379,38 @@ Pagination
 }
 
 .banner.banner-style-5 {
-    background-image: url("../media/banner/banner-bg-1.png");
+    background-image: url("../media/banner/last_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 310px 0 0;
+    padding: 350px 120px 0 120px;
+    min-height: 100vh;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .banner.banner-style-5 {
-        padding: 250px 0 0;
-        min-height: 750px;
+        padding: 200px 150px 0 150px; 
+        min-height: 100vh;
     }
 }
 
 @media only screen and (max-width: 1199px) {
     .banner.banner-style-5 {
-        padding: 230px 0 0;
+        padding: 230px 120px 100px 120px;
         min-height: 750px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .banner.banner-style-5 {
-        padding: 170px 0 80px;
+        padding: 170px 50px 80px 50px;
         min-height: 100%;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .banner.banner-style-5 {
-        padding: 150px 0 60px;
+        padding: 150px 25px 60px 25px;
         min-height: 100%;
     }
 }
@@ -3462,7 +3465,7 @@ Pagination
 }
 
 .banner.banner-style-5 .banner-content .axil-btn {
-    color: var(--color-text-dark);
+    color: #177dae;
     box-shadow: none;
 }
 
@@ -6833,14 +6836,14 @@ Pagination
 }
 
 .axil-mainmenu {
-    padding: 50px 0;
+    padding: 50px 100px;
     -webkit-transition: var(--transition);
     transition: var(--transition);
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .axil-mainmenu {
-        padding: 35px 0;
+        padding: 35px 70px;
     }
 }
 
@@ -8761,6 +8764,7 @@ Pagination
 .footer-newsletter .title {
     margin-bottom: 20px;
     letter-spacing: -0.045em;
+    color: var(--color-primary);
 }
 
 .footer-menu-link ul {
@@ -8785,9 +8789,78 @@ Pagination
 }
 
 .footer-bottom {
-    border-top: 1px solid var(--color-ghost);
-    padding: 25px 0;
+    padding: 25px 150px;
 }
+
+
+
+.footer-top-content{
+    padding: 0px 0 100px 0;
+}
+
+.footer-content .title{
+    color: var(--color-primary);
+}
+
+.footer-content .subtitle{
+    font-weight: 300;
+    font-size: 1.0em;
+}
+
+.footer-content .subtitle-link{
+    font-weight: 300;
+    font-size: 1.0em;
+    color: #20262B;
+}
+
+@media only screen and (max-width: 1199px) {
+    .footer-bottom {
+        padding: 25px 100px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .footer-bottom {
+        padding: 25px 50px;
+    }
+
+    .footer-content{
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-bottom {
+        padding: 25px 30px;
+    }
+
+    .footer-content{
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .footer-bottom {
+        padding: 25px 30px;
+    }
+
+    .footer-content{
+        margin-bottom: 60px;
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .footer-bottom {
+        padding: 25px 30px;
+    }
+
+    .footer-content{
+        margin-bottom: 60px;
+        margin-left: 20px;
+    }
+}
+
 
 @media only screen and (max-width: 767px) {
     .footer-copyright {
@@ -9919,46 +9992,46 @@ Pagination
     Section Space
 -------------------------*/
 .section-padding {
-    padding: 140px 0 110px;
+    padding: 140px 130px 110px 130px;
 }
 
 @media only screen and (max-width: 1199px) {
     .section-padding {
-        padding: 100px 0 70px;
+        padding: 100px 110px 70px 110px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .section-padding {
-        padding: 80px 0 50px;
+        padding: 80px 80px 50px 80px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .section-padding {
-        padding: 60px 0 30px;
+        padding: 60px 40px 30px 40px;
     }
 }
 
 .section-padding-2 {
-    padding: 140px 0 100px;
+    padding: 140px 130px 100px 130px;
 }
 
 @media only screen and (max-width: 1199px) {
     .section-padding-2 {
-        padding: 100px 0 60px;
+        padding: 100px 110px 60px 110px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .section-padding-2 {
-        padding: 80px 0 40px;
+        padding: 80px 80px 40px 80px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .section-padding-2 {
-        padding: 60px 0 20px;
+        padding: 60px 40px 20px 40px;
     }
 }
 
@@ -10135,5 +10208,44 @@ Pagination
 
     .pb_sm--0 {
         padding-bottom: 0;
+    }
+}
+
+
+.paper-digital-cloud{
+    padding: 120px 180px 50px 180px;
+}
+
+.bespoke-software{
+    padding: 50px 180px 50px 220px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .paper-digital-cloud{
+        padding: 100px 140px 50px 140px;
+    }
+    
+    .bespoke-software{
+        padding: 50px 140px 50px 160px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .paper-digital-cloud{
+        padding: 80px 30px 50px 30px;
+    }
+    
+    .bespoke-software{
+        padding: 50px 30px 50px 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .paper-digital-cloud{
+        padding: 30px 20px 30px 20px;
+    }
+    
+    .bespoke-software{
+        padding: 50px 20px 50px 20px;
     }
 }

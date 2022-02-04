@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 export const Banner = () => {
 
@@ -7,7 +9,7 @@ export const Banner = () => {
       <section className="banner banner-style-5">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-xl-7">
+            <div className="col-lg-10 col-xl-8 col-md-12 col-xs-12">
               <div className="banner-content">
                 <h1
                   className="title"
@@ -28,6 +30,11 @@ export const Banner = () => {
                   >
                    We are committed to empowering organizations to excel in the ever evolving global market.
                   </h4>
+                </div>
+                <div>
+                    <Link to="/contact" className="axil-btn btn-fill-white">
+                      Get Started
+                    </Link>
                 </div>
               </div>
             </div>

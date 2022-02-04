@@ -22,15 +22,6 @@ const CallToAction = () => {
                         <li className="shape shape-2" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                             <img src="assets/media/others/keyboard.png" alt="Comments"/>
                         </li>
-                        <li className="shape shape-3" data-sal="slide-right" data-sal-duration="800" data-sal-delay="300">
-                            <img src="assets/media/others/mouse.png" alt="Comments"/>
-                        </li>
-                        <li className="shape shape-4" data-sal="slide-left" data-sal-duration="800" data-sal-delay="300">
-                            <img src="assets/media/others/bell-icon.png" alt="Comments"/>
-                        </li>
-                        <li className="shape shape-5" data-sal="zoom-in" data-sal-duration="800" data-sal-delay="200">
-                            <img src="assets/media/others/chat-bot.png" alt="Comments"/>
-                        </li>
                     </ul>
                 </div>
             </div>

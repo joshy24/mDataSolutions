@@ -92,7 +92,7 @@ export const Header = () => {
                 </div>
                 <ul className="mainmenu">
                   <li>
-                    <Link to="/" style={{ color: "#828282" }}>
+                    <Link to="/" style={{ color: "#FFFFFF" }}>
                       Home
                     </Link>
                   </li>
@@ -100,7 +100,7 @@ export const Header = () => {
                     <a
                       className="menu-item-has-children-link"
                       href="javascript:void(0);"
-                      style={{ color: "#828282" }}
+                      style={{ color: "#FFFFFF" }}
                     >
                       Technology
                     </a>
@@ -130,7 +130,7 @@ export const Header = () => {
                     <a
                       className="menu-item-has-children-link"
                       href="javascript:void(0);"
-                      style={{ color: "#828282" }}
+                      style={{ color: "#FFFFFF" }}
                     >
                       Security & Risk
                     </a>
@@ -170,7 +170,7 @@ export const Header = () => {
                     <a
                       className="menu-item-has-children-link"
                       href="javascript:void(0);"
-                      style={{ color: "#828282" }}
+                      style={{ color: "#FFFFFF" }}
                     >
                       Training
                     </a>
@@ -212,7 +212,7 @@ export const Header = () => {
                     <a
                       className="menu-item-has-children-link"
                       href="javascript:void(0);"
-                      style={{ color: "#828282" }}
+                      style={{ color: "#FFFFFF" }}
                     >
                       About Us
                     </a>
@@ -238,6 +238,11 @@ export const Header = () => {
                         <Link to="/training-schedule">Training Schedule</Link>
                       </li>
                     </ul>
+                  </li>
+                  <li>
+                    <Link to="/contact" style={{ color: "#FFFFFF" }}>
+                      Contact Us
+                    </Link>
                   </li>
                 </ul>
               </nav>

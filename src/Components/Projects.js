@@ -24,7 +24,7 @@ const Projects = () => {
                 className="col-md-6 project branding"
                 style={{
                   height: 200,
-                  width: 300,
+                  width: 270,
                   marginTop: 30,
                   marginBottom: 60,
                 }}
@@ -43,7 +43,7 @@ const Projects = () => {
                     <Link to="/">
                       <p
                         className="title"
-                        style={{ fontSize: "1.5em", color: "black" }}
+                        style={{ fontSize: "1.5em", color: "black", marginLeft: "-30px" }}
                       >
                         Oil & Gas
                       </p>
@@ -56,7 +56,7 @@ const Projects = () => {
                 className="col-md-6 project branding"
                 style={{
                   height: 200,
-                  width: 300,
+                  width: 270,
                   marginTop: 30,
                   marginBottom: 60,
                 }}
@@ -75,7 +75,7 @@ const Projects = () => {
                     <Link to="/">
                       <p
                         className="title"
-                        style={{ fontSize: "1.5em", color: "black", textAlign: "center" }}
+                        style={{ fontSize: "1.5em", color: "black", marginLeft: "-30px" }}
                       >
                         Telecommunication
                       </p>
@@ -88,7 +88,7 @@ const Projects = () => {
                 className="col-md-6 project branding"
                 style={{
                   height: 200,
-                  width: 300,
+                  width: 270,
                   marginTop: 30,
                   marginBottom: 60,
                 }}
@@ -107,7 +107,7 @@ const Projects = () => {
                     <Link to="/">
                       <p
                         className="title"
-                        style={{ fontSize: "1.5em", color: "black", textAlign: "center" }}
+                        style={{ fontSize: "1.5em", color: "black", marginLeft: "-30px" }}
                       >
                         Banking
                       </p>
@@ -120,7 +120,7 @@ const Projects = () => {
                 className="col-md-6 project branding"
                 style={{
                   height: 200,
-                  width: 300,
+                  width: 270,
                   marginTop: 30,
                   marginBottom: 60,
                 }}
@@ -139,7 +139,7 @@ const Projects = () => {
                     <Link to="/">
                       <p
                         className="title d-flex justify-content-center"
-                        style={{ fontSize: "1.5em", color: "black" }}
+                        style={{ fontSize: "1.5em", color: "black", marginLeft: "-30px" }}
                       >
                         Government
                       </p>

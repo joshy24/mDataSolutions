@@ -23,7 +23,7 @@ const Home = () => {
       <Projects />
       {/* <Counter /> */}
 
-      <section style={{ padding: 40 }}>
+      <section className="paper-digital-cloud">
         <div className="footer-main">
           <div className="row">
             <div
@@ -45,7 +45,6 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-             
               
             </div>
             <div
@@ -70,10 +69,11 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section style={{ padding: 40 }}>
+      
+      <section className="bespoke-software">
         <div className="footer-main">
           <div className="row">
-          <div
+            <div
               className="col-xl-6 col-lg-7"
               data-sal="slide-left"
               data-sal-duration="800"
@@ -111,7 +111,6 @@ const Home = () => {
                 </div>
               </div>
             </div>
-
            
           </div>
         </div>

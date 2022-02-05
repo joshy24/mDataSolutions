@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import sal from "sal.js";
 import LeadershipAccordion from "./LeadershipAccordion";
+import business from "../../../images/business.png";
 
 function Leadership(props) {
   useEffect(() => {
@@ -31,7 +32,7 @@ function Leadership(props) {
                 >
                   <img
                     className="paralax-image"
-                    src="assets/media/project/project-2.png"
+                    src={business}
                     alt="Illustration"
                   />
                 </div>

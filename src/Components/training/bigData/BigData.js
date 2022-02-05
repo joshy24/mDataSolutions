@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import sal from "sal.js";
 import DataAccordion from "./DataAccordion";
+import software from '../../../images/software.png'
 
 function BigData(props) {
   useEffect(() => {
@@ -31,7 +32,7 @@ function BigData(props) {
                 >
                   <img
                     className="paralax-image"
-                    src="assets/media/project/project-2.png"
+                    src={software}
                     alt="Illustration"
                   />
                 </div>

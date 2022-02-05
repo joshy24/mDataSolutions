@@ -3,6 +3,8 @@ import sal from "sal.js";
 import OfferingsAcc from "./OfferingsAcc";
 import $ from "jquery";
 import Img1 from '../../../images/Picture1.png'
+
+
 function Offerings(props) {
   useEffect(() => {
     sal();
@@ -64,9 +66,15 @@ function Offerings(props) {
           <section className="section-padding single-portfolio-area">
             <div className="container">
               <div className="row">
-                <div className="col-lg-5">
-                  <div className="section-heading heading-left mb-0">
-                    <h3 className="title">Project Management Offerings</h3>
+                  <div className="col-lg-6">
+                    <div
+                      className="section-heading heading-left"
+                      data-sal="slide-right"
+                      data-sal-duration="1000"
+                      data-sal-delay="300"
+                    >
+                      <h3>Project Management Offerings</h3>
+                    </div>
                   </div>
                   <p>
                     MData Solutions is an approved Registered Education Provider
@@ -83,7 +91,6 @@ function Offerings(props) {
                     training classes for your experienced managers and
                     individuals involved in project office development.
                   </p>
-                </div>
               </div>
             </div>
           </section>

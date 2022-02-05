@@ -18,7 +18,7 @@ const WhyUs = () => {
                 data-sal-duration="1000"
                 data-sal-delay="300"
               >
-                <h1 className="title h2">Why US</h1>
+                <h1 className="title h2">Why Us</h1>
               </div>
             </div>
             <div className="col-lg-6">

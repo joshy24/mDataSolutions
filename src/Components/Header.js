@@ -92,7 +92,7 @@ export const Header = () => {
                 </div>
                 <ul className="mainmenu">
                   <li>
-                    <Link to="/" style={{ color: "#FFFFFF" }}>
+                    <Link to="/" style={{ color: "#999FAE" }}>
                       Home
                     </Link>
                   </li>
@@ -100,7 +100,7 @@ export const Header = () => {
                     <a
                       className="menu-item-has-children-link"
                       href="javascript:void(0);"
-                      style={{ color: "#FFFFFF" }}
+                      style={{ color: "#999FAE" }}
                     >
                       Technology
                     </a>
@@ -130,7 +130,7 @@ export const Header = () => {
                     <a
                       className="menu-item-has-children-link"
                       href="javascript:void(0);"
-                      style={{ color: "#FFFFFF" }}
+                      style={{ color: "#999FAE" }}
                     >
                       Security & Risk
                     </a>
@@ -170,7 +170,7 @@ export const Header = () => {
                     <a
                       className="menu-item-has-children-link"
                       href="javascript:void(0);"
-                      style={{ color: "#FFFFFF" }}
+                      style={{ color: "#999FAE" }}
                     >
                       Training
                     </a>
@@ -200,11 +200,6 @@ export const Header = () => {
                       <li>
                         <Link to="/leadership">Leadership & Soft Skills</Link>
                       </li>
-                      <li>
-                        <Link to="/cyber-security">
-                          Cyber Security Awareness Training
-                        </Link>
-                      </li>
                     </ul>
                   </li>
 
@@ -212,7 +207,7 @@ export const Header = () => {
                     <a
                       className="menu-item-has-children-link"
                       href="javascript:void(0);"
-                      style={{ color: "#FFFFFF" }}
+                      style={{ color: "#999FAE" }}
                     >
                       About Us
                     </a>
@@ -234,13 +229,11 @@ export const Header = () => {
                       <li>
                         <Link to="/partners">Partners & Clients</Link>
                       </li>
-                      <li>
-                        <Link to="/training-schedule">Training Schedule</Link>
-                      </li>
+                      
                     </ul>
                   </li>
                   <li>
-                    <Link to="/contact" style={{ color: "#FFFFFF" }}>
+                    <Link to="/contact" style={{ color: "#999FAE" }}>
                       Contact Us
                     </Link>
                   </li>

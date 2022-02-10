@@ -11,19 +11,6 @@ const CallToAction = () => {
                     <h2 className="title">Need our professional help?</h2>
                     <Link to="/contact" className="axil-btn btn-large btn-fill-white">Get Started</Link>
                 </div>
-                <div className="thumbnail">
-                    <div className="larg-thumb" data-sal="zoom-in" data-sal-duration="600" data-sal-delay="100">
-                        <img src="assets/media/others/pc.png" alt="Computer"/>
-                    </div>
-                    <ul className="list-unstyled small-thumb">
-                        <li className="shape shape-1" data-sal="slide-right" data-sal-duration="800" data-sal-delay="400">
-                            <img src="assets/media/others/comment.png" alt="Comments"/>
-                        </li>
-                        <li className="shape shape-2" data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
-                            <img src="assets/media/others/keyboard.png" alt="Comments"/>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
         <ul className="list-unstyled shape-group-9">

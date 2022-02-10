@@ -3539,7 +3539,7 @@ Pagination
 
 @media only screen and (max-width: 1199px) {
     .call-to-action-area {
-        padding: 100px 0;
+        padding: 100px 0 50px;
     }
 }
 
@@ -3557,7 +3557,7 @@ Pagination
 
 .call-to-action-area:before {
     content: "";
-    height: 730px;
+    height: 500px;
     width: 100%;
     background-color: var(--color-primary);
     position: absolute;
@@ -3569,24 +3569,29 @@ Pagination
 
 @media only screen and (max-width: 991px) {
     .call-to-action-area:before {
-        height: 500px;
+        height: 380px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .call-to-action-area:before {
-        height: 480px;
+        height: 400px;
     }
 }
 
 @media only screen and (max-width: 575px) {
+    .call-to-action-area:before {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
     .call-to-action-area:before {
         height: 400px;
     }
 }
 
 .call-to-action {
-    border-bottom: 1px solid #e7e7e7;
 }
 
 .call-to-action .section-heading {
@@ -6850,6 +6855,12 @@ Pagination
 
 @media only screen and (max-width: 1199px) {
     .axil-mainmenu {
+        padding: 0px 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .axil-mainmenu {
         padding: 30px 0;
     }
 }
@@ -8689,7 +8700,7 @@ Pagination
    Footer Styles
 -------------------------*/
 .footer-area {
-    padding-top: 10px;
+    padding-top: 100px;
 }
 
 .footer-top {

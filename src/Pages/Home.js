@@ -45,7 +45,6 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              
             </div>
             <div
               className="col-xl-6 col-lg-7"

@@ -3390,7 +3390,7 @@ Pagination
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .banner.banner-style-5 {
-        padding: 200px 150px 150px 150px; 
+        padding: 200px 150px 190px 150px; 
         min-height: 100vh;
     }
 }
@@ -3398,21 +3398,21 @@ Pagination
 @media only screen and (max-width: 1199px) {
     .banner.banner-style-5 {
         padding: 230px 120px 150px 120px;
-        min-height: 750px;
+        min-height: 100vh;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .banner.banner-style-5 {
         padding: 170px 50px 80px 50px;
-        min-height: 100%;
+        min-height: 100vh;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .banner.banner-style-5 {
         padding: 150px 25px 60px 25px;
-        min-height: 100%;
+        min-height: 100vh;
     }
 }
 

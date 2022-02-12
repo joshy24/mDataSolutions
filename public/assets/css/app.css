@@ -6842,13 +6842,14 @@ Pagination
 }
 
 .axil-mainmenu {
+    padding: 25px 100px;
     -webkit-transition: var(--transition);
     transition: var(--transition);
 }
 
-/*@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .axil-mainmenu {
-        padding: 5px 70px;
+        padding: 10px 70px;
     }
 }
 
@@ -6862,7 +6863,7 @@ Pagination
     .axil-mainmenu {
         padding: 30px 0;
     }
-}*/
+}
 
 .axil-mainmenu.axil-sticky {
     position: fixed;

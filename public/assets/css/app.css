@@ -3384,20 +3384,20 @@ Pagination
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 350px 120px 0 120px;
+    padding: 350px 120px 150px 120px;
     min-height: 100vh;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .banner.banner-style-5 {
-        padding: 200px 150px 0 150px; 
+        padding: 200px 150px 150px 150px; 
         min-height: 100vh;
     }
 }
 
 @media only screen and (max-width: 1199px) {
     .banner.banner-style-5 {
-        padding: 230px 120px 100px 120px;
+        padding: 230px 120px 150px 120px;
         min-height: 750px;
     }
 }
@@ -3427,6 +3427,7 @@ Pagination
     left: 0;
     right: 0;
     z-index: -1;
+    min-height: 100vh;
 }
 
 @media only screen and (max-width: 991px) {
@@ -6847,13 +6848,25 @@ Pagination
     transition: var(--transition);
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+@media only screen and (max-width: 1500px) {
     .axil-mainmenu {
         padding: 10px 70px;
     }
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1490px) {
+    .axil-mainmenu {
+        padding: 7px 0px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .axil-mainmenu {
+        padding: 15px 0px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
     .axil-mainmenu {
         padding: 0px 0;
     }

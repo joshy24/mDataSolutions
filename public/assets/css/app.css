@@ -11265,8 +11265,13 @@ Pagination
 }
 
 
-
-
 .mDocScanColumns .mDocGetStartedBtn{
     margin-top: 100px;
+}
+
+
+.mDocScanHomeFrame{
+    border-radius: 12px;
+    padding: 24px;
+    background: #F5F5F5;
 }

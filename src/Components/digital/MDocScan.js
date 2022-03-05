@@ -17,7 +17,7 @@ const MDocScan = () => {
                             <div className="col-lg-6 col-md-6 col-sm-12">
                                 <div className="mTopLeftContent">
                                     <h1>Make your records <span>digital and searchable with MDocScan</span></h1>
-                                    <button className="mDocGetStartedBtn">Get Started</button>
+                                    <Link to="/MDocScan"><button className="mDocGetStartedBtn">Get Started</button></Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12">
@@ -280,7 +280,7 @@ const MDocScan = () => {
                     </div>
                 </div>
 
-                <button className="mDocGetStartedBtn">Get Started</button>
+                <Link to="/contact"><button className="mDocGetStartedBtn">Get Started</button></Link>
             </div>
             
         </div>

@@ -55,12 +55,14 @@ const Home = () => {
               <div className="row">
                 <div className="col-sm-6">
                   <div className="footer-widget">
-                    <img
-                      className="paralax-image"
-                      src={paper}
-                      alt="Illustration"
-                      style={{borderRadius: 20, height:300, width:300}}
-                    />
+                     <Link to="/MDocScan">
+                        <img
+                          className="paralax-image mDocScanHomeFrame"
+                          src="assets/media/banner/mdocscanlogo.png"
+                          alt="Illustration"
+                          style={{borderRadius: 20, height:312, width:305}}
+                        />
+                     </Link>
                   </div>
                 </div>
               </div>

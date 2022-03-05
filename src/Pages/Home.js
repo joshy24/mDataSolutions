@@ -83,12 +83,14 @@ const Home = () => {
               <div className="row">
                 <div className="col-sm-6">
                   <div className="footer-widget" >
-                    <img
-                      className="paralax-image"
-                      src={instructor}
-                      alt="Illustration"
-                      style={{borderRadius: 20, height:300, width:500, marginLeft:50}}
-                    />
+                    <Link to="/software-technology">
+                        <img
+                          className="paralax-image"
+                          src={instructor}
+                          alt="Illustration"
+                          style={{borderRadius: 20, height:300, width:500, marginLeft:50}}
+                        />
+                    </Link>
                   </div>
                 </div>
               </div>

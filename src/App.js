@@ -20,6 +20,7 @@ import Leadership from "./Components/training/leadership/Leadership";
 import AboutUs from "./Components/about/AboutUs";
 import Software from "./Components/digital/Software";
 import DocumentManagement from "./Components/digital/DocumentManagement";
+import MDocScan from "./Components/digital/MDocScan";
 import DigitalTransformation from "./Components/digital/DigitalTransformation";
 import BusinessAutomation from "./Components/digital/BusinessAutomation";
 import Contact from "./Pages/Contact";
@@ -64,7 +65,7 @@ function App() {
           {/* digital transformation pages  */}
           <Route exact path="/digital-transformation" element={<DigitalTransformation />} />
           <Route exact path="/software-technology" element={<Software />} />
-          <Route exact path="/MDocScan" element={<DocumentManagement />} />
+          <Route exact path="/MDocScan" element={<MDocScan />} />
           <Route exact path="/buisness-process-automation" element={<BusinessAutomation />} />
 
           {/* security and risk  */}

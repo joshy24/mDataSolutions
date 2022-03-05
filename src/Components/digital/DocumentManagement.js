@@ -4,9 +4,11 @@ import sal from "sal.js";
 import digital from "../../images/digital.png";
 
 const DocumentManagement = () => {
+  
   useEffect(() => {
     sal();
   }, []);
+
   return (
     <>
       <div className="breadcrum-area breadcrumb-banner single-breadcrumb">
